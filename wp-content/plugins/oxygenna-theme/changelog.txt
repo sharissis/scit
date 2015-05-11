@@ -1,0 +1,28 @@
+1.0     - (10th Sep 2013)
+        - initial release
+
+1.01    - (14th Sep 2013)
+        - Removed blank field from categories
+        - fixed textdomain for admin translations
+        - only load theme options array in admin
+        - auto add missing default option value
+
+1.1     - (21st Sep 2013)
+        - Restyled option pages
+        - Updated Logo
+        - Added tooltip to option pages
+        - Added tooltip to metabox options
+
+1.1.1   - (28th Sep 2013)
+        - Remove notice error in updater.php
+
+1.1.2   - (5th Oct 2013)
+        - fix bug in rev slider select box on multi-site
+        - fix bug in Firefox shortcode preview
+        - fix bug in shortcode editor on SSH enabled sites
+        - fix bug caused by CSS in WP http://core.trac.wordpress.org/ticket/23684
+
+1.2     - ( 4th Nov )
+        - changed icons to work with new font-awesome in future
+        - added rss icon to social icons
+        - fix bug searching for new plugins

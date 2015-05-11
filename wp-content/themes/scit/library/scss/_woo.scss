@@ -1,0 +1,24 @@
+table .shipping th {
+	display: none;
+}
+table .shipping td {
+	float: right;
+}
+
+.cart_totals p small {
+	display: none;
+}
+
+// This removes the class intro information blurb from the homepage.
+.home .class_intro {
+	display: none;
+}
+
+// This removes the iCal Import 
+.tribe-events-ical {
+	display: none;
+}
+
+.events-single .subscribe {
+	display: none;
+}

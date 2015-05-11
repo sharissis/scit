@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR (c) 2013 Oxygenna.com
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Oxygenna Theme Framework Translation File 0.3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-29 12:42+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: build/inc/media-upload.php:41
+msgid "Select Image"
+msgstr ""
+
+#: build/inc/options/fields/font/font.php:99
+msgid "System Fontstacks"
+msgstr ""
+
+#: build/inc/options/fields/font/font.php:114
+msgid "Google Web Fonts"
+msgstr ""
+
+#: build/inc/options/fields/select/select.php:88
+#: build/inc/options/fields/select/select.php:93
+msgid "Select a Slideshow"
+msgstr ""
+
+#: build/inc/options/fields/select/select.php:109
+msgid "Select a Staff member"
+msgstr ""
+
+#: build/inc/options/fields/select/select.php:122
+msgid "all categories"
+msgstr ""
+
+#: build/inc/options/fields/select/select.php:126
+msgid "Select a Portfolio"
+msgstr ""
+
+#: build/inc/options/fields/select/select.php:134
+msgid "Select a kit"
+msgstr ""
+
+#: build/inc/options/fields/upload/upload.php:64
+msgid "Set Image"
+msgstr ""
+
+#: build/inc/options/fields/upload/upload.php:65
+msgid "Remove Image"
+msgstr ""
+
+#: build/inc/options/options.php:275
+msgid "Restore Defaults"
+msgstr ""
+
+#: build/inc/options/validation/date.php:43
+msgid "Invalid date supplied"
+msgstr ""
+
+#: build/inc/quick-uploader.php:83
+msgid "You do not have permission to upload files."
+msgstr ""
+
+#: build/inc/quick-uploader.php:98 build/inc/shortcodes/shortcode-admin.php:60
+#: build/inc/shortcodes/shortcode-admin.php:76
+#: build/inc/shortcodes/shortcode-admin.php:97
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: build/inc/quick-uploader.php:124
+msgid "Upload New Media"
+msgstr ""
+
+#: build/inc/quick-uploader.php:157
+msgid "Use these images"
+msgstr ""
+
+#: build/inc/quick-uploader.php:183
+msgid "Save"
+msgstr ""
+
+#: build/inc/quick-uploader.php:289
+#, php-format
+msgid "Created %d %s"
+msgstr ""
+
+#: build/inc/shortcodes/shortcode-options.php:99
+msgid "Insert"
+msgstr ""
+
+#: build/inc/shortcodes/shortcode-options.php:100
+msgid "Close"
+msgstr ""
+
+#: build/inc/theme.php:161
+msgid "Theme"
+msgstr ""
+
+#: build/inc/themeadmin.php:91
+#, php-format
+msgid "Version %s is incompatible with this theme minimum version %s"
+msgstr ""

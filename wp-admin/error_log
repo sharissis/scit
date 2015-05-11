@@ -1,0 +1,385 @@
+[20-Apr-2013 16:20:50] PHP Fatal error:  Call to undefined method DateTime::getTimestamp() in /home/jerome/public_html/steelcityimprov.com/wp-content/plugins/wd-twitter-feed/WDTwitterFeed.php on line 298
+[23-Jul-2013 13:34:25] WordPress database error Table 'wp_8ec04f1s_users' already exists for query CREATE TABLE wp_8ec04f1s_users (
+  ID bigint(20) unsigned NOT NULL auto_increment,
+  user_login varchar(60) NOT NULL default '',
+  user_pass varchar(64) NOT NULL default '',
+  user_nicename varchar(50) NOT NULL default '',
+  user_email varchar(100) NOT NULL default '',
+  user_url varchar(100) NOT NULL default '',
+  user_registered datetime NOT NULL default '0000-00-00 00:00:00',
+  user_activation_key varchar(60) NOT NULL default '',
+  user_status int(11) NOT NULL default '0',
+  display_name varchar(250) NOT NULL default '',
+  spam tinyint(2) NOT NULL default '0',
+  deleted tinyint(2) NOT NULL default '0',
+  PRIMARY KEY  (ID),
+  KEY user_login_key (user_login),
+  KEY user_nicename (user_nicename)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:25] WordPress database error Table 'wp_8ec04f1s_usermeta' already exists for query 
+CREATE TABLE wp_8ec04f1s_usermeta (
+  umeta_id bigint(20) unsigned NOT NULL auto_increment,
+  user_id bigint(20) unsigned NOT NULL default '0',
+  meta_key varchar(255) default NULL,
+  meta_value longtext,
+  PRIMARY KEY  (umeta_id),
+  KEY user_id (user_id),
+  KEY meta_key (meta_key)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:25] WordPress database error Table 'wp_8ec04f1s_blogs' already exists for query 
+CREATE TABLE wp_8ec04f1s_blogs (
+  blog_id bigint(20) NOT NULL auto_increment,
+  site_id bigint(20) NOT NULL default '0',
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  registered datetime NOT NULL default '0000-00-00 00:00:00',
+  last_updated datetime NOT NULL default '0000-00-00 00:00:00',
+  public tinyint(2) NOT NULL default '1',
+  archived enum('0','1') NOT NULL default '0',
+  mature tinyint(2) NOT NULL default '0',
+  spam tinyint(2) NOT NULL default '0',
+  deleted tinyint(2) NOT NULL default '0',
+  lang_id int(11) NOT NULL default '0',
+  PRIMARY KEY  (blog_id),
+  KEY domain (domain(50),path(5)),
+  KEY lang_id (lang_id)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:25] WordPress database error Table 'wp_8ec04f1s_blog_versions' already exists for query 
+CREATE TABLE wp_8ec04f1s_blog_versions (
+  blog_id bigint(20) NOT NULL default '0',
+  db_version varchar(20) NOT NULL default '',
+  last_updated datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (blog_id),
+  KEY db_version (db_version)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:25] WordPress database error Table 'wp_8ec04f1s_registration_log' already exists for query 
+CREATE TABLE wp_8ec04f1s_registration_log (
+  ID bigint(20) NOT NULL auto_increment,
+  email varchar(255) NOT NULL default '',
+  IP varchar(30) NOT NULL default '',
+  blog_id bigint(20) NOT NULL default '0',
+  date_registered datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (ID),
+  KEY IP (IP)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:25] WordPress database error Table 'wp_8ec04f1s_site' already exists for query 
+CREATE TABLE wp_8ec04f1s_site (
+  id bigint(20) NOT NULL auto_increment,
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  PRIMARY KEY  (id),
+  KEY domain (domain,path)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:25] WordPress database error Table 'wp_8ec04f1s_sitemeta' already exists for query 
+CREATE TABLE wp_8ec04f1s_sitemeta (
+  meta_id bigint(20) NOT NULL auto_increment,
+  site_id bigint(20) NOT NULL default '0',
+  meta_key varchar(255) default NULL,
+  meta_value longtext,
+  PRIMARY KEY  (meta_id),
+  KEY meta_key (meta_key),
+  KEY site_id (site_id)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:25] WordPress database error Table 'wp_8ec04f1s_signups' already exists for query 
+CREATE TABLE wp_8ec04f1s_signups (
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  title longtext NOT NULL,
+  user_login varchar(60) NOT NULL default '',
+  user_email varchar(100) NOT NULL default '',
+  registered datetime NOT NULL default '0000-00-00 00:00:00',
+  activated datetime NOT NULL default '0000-00-00 00:00:00',
+  active tinyint(1) NOT NULL default '0',
+  activation_key varchar(50) NOT NULL default '',
+  meta longtext,
+  KEY activation_key (activation_key),
+  KEY domain (domain)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:26] WordPress database error Table 'wp_8ec04f1s_users' already exists for query CREATE TABLE wp_8ec04f1s_users (
+  ID bigint(20) unsigned NOT NULL auto_increment,
+  user_login varchar(60) NOT NULL default '',
+  user_pass varchar(64) NOT NULL default '',
+  user_nicename varchar(50) NOT NULL default '',
+  user_email varchar(100) NOT NULL default '',
+  user_url varchar(100) NOT NULL default '',
+  user_registered datetime NOT NULL default '0000-00-00 00:00:00',
+  user_activation_key varchar(60) NOT NULL default '',
+  user_status int(11) NOT NULL default '0',
+  display_name varchar(250) NOT NULL default '',
+  spam tinyint(2) NOT NULL default '0',
+  deleted tinyint(2) NOT NULL default '0',
+  PRIMARY KEY  (ID),
+  KEY user_login_key (user_login),
+  KEY user_nicename (user_nicename)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:26] WordPress database error Table 'wp_8ec04f1s_usermeta' already exists for query 
+CREATE TABLE wp_8ec04f1s_usermeta (
+  umeta_id bigint(20) unsigned NOT NULL auto_increment,
+  user_id bigint(20) unsigned NOT NULL default '0',
+  meta_key varchar(255) default NULL,
+  meta_value longtext,
+  PRIMARY KEY  (umeta_id),
+  KEY user_id (user_id),
+  KEY meta_key (meta_key)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:26] WordPress database error Table 'wp_8ec04f1s_blogs' already exists for query 
+CREATE TABLE wp_8ec04f1s_blogs (
+  blog_id bigint(20) NOT NULL auto_increment,
+  site_id bigint(20) NOT NULL default '0',
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  registered datetime NOT NULL default '0000-00-00 00:00:00',
+  last_updated datetime NOT NULL default '0000-00-00 00:00:00',
+  public tinyint(2) NOT NULL default '1',
+  archived enum('0','1') NOT NULL default '0',
+  mature tinyint(2) NOT NULL default '0',
+  spam tinyint(2) NOT NULL default '0',
+  deleted tinyint(2) NOT NULL default '0',
+  lang_id int(11) NOT NULL default '0',
+  PRIMARY KEY  (blog_id),
+  KEY domain (domain(50),path(5)),
+  KEY lang_id (lang_id)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:26] WordPress database error Table 'wp_8ec04f1s_blog_versions' already exists for query 
+CREATE TABLE wp_8ec04f1s_blog_versions (
+  blog_id bigint(20) NOT NULL default '0',
+  db_version varchar(20) NOT NULL default '',
+  last_updated datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (blog_id),
+  KEY db_version (db_version)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:26] WordPress database error Table 'wp_8ec04f1s_registration_log' already exists for query 
+CREATE TABLE wp_8ec04f1s_registration_log (
+  ID bigint(20) NOT NULL auto_increment,
+  email varchar(255) NOT NULL default '',
+  IP varchar(30) NOT NULL default '',
+  blog_id bigint(20) NOT NULL default '0',
+  date_registered datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (ID),
+  KEY IP (IP)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:26] WordPress database error Table 'wp_8ec04f1s_site' already exists for query 
+CREATE TABLE wp_8ec04f1s_site (
+  id bigint(20) NOT NULL auto_increment,
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  PRIMARY KEY  (id),
+  KEY domain (domain,path)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:26] WordPress database error Table 'wp_8ec04f1s_sitemeta' already exists for query 
+CREATE TABLE wp_8ec04f1s_sitemeta (
+  meta_id bigint(20) NOT NULL auto_increment,
+  site_id bigint(20) NOT NULL default '0',
+  meta_key varchar(255) default NULL,
+  meta_value longtext,
+  PRIMARY KEY  (meta_id),
+  KEY meta_key (meta_key),
+  KEY site_id (site_id)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[23-Jul-2013 13:34:26] WordPress database error Table 'wp_8ec04f1s_signups' already exists for query 
+CREATE TABLE wp_8ec04f1s_signups (
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  title longtext NOT NULL,
+  user_login varchar(60) NOT NULL default '',
+  user_email varchar(100) NOT NULL default '',
+  registered datetime NOT NULL default '0000-00-00 00:00:00',
+  activated datetime NOT NULL default '0000-00-00 00:00:00',
+  active tinyint(1) NOT NULL default '0',
+  activation_key varchar(50) NOT NULL default '',
+  meta longtext,
+  KEY activation_key (activation_key),
+  KEY domain (domain)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:50] WordPress database error Table 'wp_8ec04f1s_users' already exists for query CREATE TABLE wp_8ec04f1s_users (
+  ID bigint(20) unsigned NOT NULL auto_increment,
+  user_login varchar(60) NOT NULL default '',
+  user_pass varchar(64) NOT NULL default '',
+  user_nicename varchar(50) NOT NULL default '',
+  user_email varchar(100) NOT NULL default '',
+  user_url varchar(100) NOT NULL default '',
+  user_registered datetime NOT NULL default '0000-00-00 00:00:00',
+  user_activation_key varchar(60) NOT NULL default '',
+  user_status int(11) NOT NULL default '0',
+  display_name varchar(250) NOT NULL default '',
+  spam tinyint(2) NOT NULL default '0',
+  deleted tinyint(2) NOT NULL default '0',
+  PRIMARY KEY  (ID),
+  KEY user_login_key (user_login),
+  KEY user_nicename (user_nicename)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:50] WordPress database error Table 'wp_8ec04f1s_usermeta' already exists for query 
+CREATE TABLE wp_8ec04f1s_usermeta (
+  umeta_id bigint(20) unsigned NOT NULL auto_increment,
+  user_id bigint(20) unsigned NOT NULL default '0',
+  meta_key varchar(255) default NULL,
+  meta_value longtext,
+  PRIMARY KEY  (umeta_id),
+  KEY user_id (user_id),
+  KEY meta_key (meta_key)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:50] WordPress database error Table 'wp_8ec04f1s_blogs' already exists for query 
+CREATE TABLE wp_8ec04f1s_blogs (
+  blog_id bigint(20) NOT NULL auto_increment,
+  site_id bigint(20) NOT NULL default '0',
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  registered datetime NOT NULL default '0000-00-00 00:00:00',
+  last_updated datetime NOT NULL default '0000-00-00 00:00:00',
+  public tinyint(2) NOT NULL default '1',
+  archived enum('0','1') NOT NULL default '0',
+  mature tinyint(2) NOT NULL default '0',
+  spam tinyint(2) NOT NULL default '0',
+  deleted tinyint(2) NOT NULL default '0',
+  lang_id int(11) NOT NULL default '0',
+  PRIMARY KEY  (blog_id),
+  KEY domain (domain(50),path(5)),
+  KEY lang_id (lang_id)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:50] WordPress database error Table 'wp_8ec04f1s_blog_versions' already exists for query 
+CREATE TABLE wp_8ec04f1s_blog_versions (
+  blog_id bigint(20) NOT NULL default '0',
+  db_version varchar(20) NOT NULL default '',
+  last_updated datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (blog_id),
+  KEY db_version (db_version)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:50] WordPress database error Table 'wp_8ec04f1s_registration_log' already exists for query 
+CREATE TABLE wp_8ec04f1s_registration_log (
+  ID bigint(20) NOT NULL auto_increment,
+  email varchar(255) NOT NULL default '',
+  IP varchar(30) NOT NULL default '',
+  blog_id bigint(20) NOT NULL default '0',
+  date_registered datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (ID),
+  KEY IP (IP)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:50] WordPress database error Table 'wp_8ec04f1s_site' already exists for query 
+CREATE TABLE wp_8ec04f1s_site (
+  id bigint(20) NOT NULL auto_increment,
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  PRIMARY KEY  (id),
+  KEY domain (domain,path)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:50] WordPress database error Table 'wp_8ec04f1s_sitemeta' already exists for query 
+CREATE TABLE wp_8ec04f1s_sitemeta (
+  meta_id bigint(20) NOT NULL auto_increment,
+  site_id bigint(20) NOT NULL default '0',
+  meta_key varchar(255) default NULL,
+  meta_value longtext,
+  PRIMARY KEY  (meta_id),
+  KEY meta_key (meta_key),
+  KEY site_id (site_id)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:50] WordPress database error Table 'wp_8ec04f1s_signups' already exists for query 
+CREATE TABLE wp_8ec04f1s_signups (
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  title longtext NOT NULL,
+  user_login varchar(60) NOT NULL default '',
+  user_email varchar(100) NOT NULL default '',
+  registered datetime NOT NULL default '0000-00-00 00:00:00',
+  activated datetime NOT NULL default '0000-00-00 00:00:00',
+  active tinyint(1) NOT NULL default '0',
+  activation_key varchar(50) NOT NULL default '',
+  meta longtext,
+  KEY activation_key (activation_key),
+  KEY domain (domain)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:51] WordPress database error Table 'wp_8ec04f1s_users' already exists for query CREATE TABLE wp_8ec04f1s_users (
+  ID bigint(20) unsigned NOT NULL auto_increment,
+  user_login varchar(60) NOT NULL default '',
+  user_pass varchar(64) NOT NULL default '',
+  user_nicename varchar(50) NOT NULL default '',
+  user_email varchar(100) NOT NULL default '',
+  user_url varchar(100) NOT NULL default '',
+  user_registered datetime NOT NULL default '0000-00-00 00:00:00',
+  user_activation_key varchar(60) NOT NULL default '',
+  user_status int(11) NOT NULL default '0',
+  display_name varchar(250) NOT NULL default '',
+  spam tinyint(2) NOT NULL default '0',
+  deleted tinyint(2) NOT NULL default '0',
+  PRIMARY KEY  (ID),
+  KEY user_login_key (user_login),
+  KEY user_nicename (user_nicename)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:51] WordPress database error Table 'wp_8ec04f1s_usermeta' already exists for query 
+CREATE TABLE wp_8ec04f1s_usermeta (
+  umeta_id bigint(20) unsigned NOT NULL auto_increment,
+  user_id bigint(20) unsigned NOT NULL default '0',
+  meta_key varchar(255) default NULL,
+  meta_value longtext,
+  PRIMARY KEY  (umeta_id),
+  KEY user_id (user_id),
+  KEY meta_key (meta_key)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:51] WordPress database error Table 'wp_8ec04f1s_blogs' already exists for query 
+CREATE TABLE wp_8ec04f1s_blogs (
+  blog_id bigint(20) NOT NULL auto_increment,
+  site_id bigint(20) NOT NULL default '0',
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  registered datetime NOT NULL default '0000-00-00 00:00:00',
+  last_updated datetime NOT NULL default '0000-00-00 00:00:00',
+  public tinyint(2) NOT NULL default '1',
+  archived enum('0','1') NOT NULL default '0',
+  mature tinyint(2) NOT NULL default '0',
+  spam tinyint(2) NOT NULL default '0',
+  deleted tinyint(2) NOT NULL default '0',
+  lang_id int(11) NOT NULL default '0',
+  PRIMARY KEY  (blog_id),
+  KEY domain (domain(50),path(5)),
+  KEY lang_id (lang_id)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:51] WordPress database error Table 'wp_8ec04f1s_blog_versions' already exists for query 
+CREATE TABLE wp_8ec04f1s_blog_versions (
+  blog_id bigint(20) NOT NULL default '0',
+  db_version varchar(20) NOT NULL default '',
+  last_updated datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (blog_id),
+  KEY db_version (db_version)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:51] WordPress database error Table 'wp_8ec04f1s_registration_log' already exists for query 
+CREATE TABLE wp_8ec04f1s_registration_log (
+  ID bigint(20) NOT NULL auto_increment,
+  email varchar(255) NOT NULL default '',
+  IP varchar(30) NOT NULL default '',
+  blog_id bigint(20) NOT NULL default '0',
+  date_registered datetime NOT NULL default '0000-00-00 00:00:00',
+  PRIMARY KEY  (ID),
+  KEY IP (IP)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:51] WordPress database error Table 'wp_8ec04f1s_site' already exists for query 
+CREATE TABLE wp_8ec04f1s_site (
+  id bigint(20) NOT NULL auto_increment,
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  PRIMARY KEY  (id),
+  KEY domain (domain,path)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:51] WordPress database error Table 'wp_8ec04f1s_sitemeta' already exists for query 
+CREATE TABLE wp_8ec04f1s_sitemeta (
+  meta_id bigint(20) NOT NULL auto_increment,
+  site_id bigint(20) NOT NULL default '0',
+  meta_key varchar(255) default NULL,
+  meta_value longtext,
+  PRIMARY KEY  (meta_id),
+  KEY meta_key (meta_key),
+  KEY site_id (site_id)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta
+[05-Aug-2013 17:51:51] WordPress database error Table 'wp_8ec04f1s_signups' already exists for query 
+CREATE TABLE wp_8ec04f1s_signups (
+  domain varchar(200) NOT NULL default '',
+  path varchar(100) NOT NULL default '',
+  title longtext NOT NULL,
+  user_login varchar(60) NOT NULL default '',
+  user_email varchar(100) NOT NULL default '',
+  registered datetime NOT NULL default '0000-00-00 00:00:00',
+  activated datetime NOT NULL default '0000-00-00 00:00:00',
+  active tinyint(1) NOT NULL default '0',
+  activation_key varchar(50) NOT NULL default '',
+  meta longtext,
+  KEY activation_key (activation_key),
+  KEY domain (domain)
+) DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci made by wp_upgrade, make_db_current_silent, dbDelta

@@ -1,0 +1,9 @@
+1.0
+        - initial release
+
+1.0.1   -  (28 Sep 2013)
+        - fix notice error coming from updater.php
+
+1.1     - (4th Nov 2013)
+        - added rel attribute to fancy button
+        - fix bug searching for new plugins

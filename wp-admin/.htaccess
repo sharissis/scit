@@ -1,0 +1,6 @@
+# PROTECT install.php
+<Files install.php>
+ Order Allow,Deny
+ Deny from all
+ Satisfy all
+</Files>

@@ -1,0 +1,3065 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Buddy\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-25 18:33-0000\n"
+"PO-Revision-Date: 2013-10-25 18:33-0000\n"
+"Last-Translator: GhostPool\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: ./\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:16
+msgid "Page Not Found"
+msgstr ""
+
+#: ../404.php:21
+msgid ""
+"Oops, it looks like this page does not exist. If you are lost try using the "
+"search box."
+msgstr ""
+
+#: ../404.php:27 ../post-loop.php:155
+msgid "Search The Site"
+msgstr ""
+
+#: ../comments.php:32
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../comments.php:32 ../activity/comment.php:40
+#: ../groups/single/forum/edit.php:10
+msgid "Reply"
+msgstr ""
+
+#: ../comments.php:40
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../comments.php:56
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:56
+msgid "1 Comment"
+msgstr ""
+
+#: ../comments.php:56
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:68
+msgid "Comments are now closed on this post."
+msgstr ""
+
+#: ../comments.php:78
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:79
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:80
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:81
+msgid "Post Comment"
+msgstr ""
+
+#: ../comments.php:83 ../lib/admin/inc/shortcodes/contact-form.php:68
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:85
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:87
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: ../comments.php:89
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../comments.php:91
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: ../comments.php:95 ../lib/admin/inc/shortcodes/contact-form.php:36
+#: ../members/single/profile/profile-wp.php:15
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:97 ../lib/admin/inc/shortcodes/contact-form.php:52
+#: ../lib/admin/inc/shortcodes/register-form.php:8
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:99 ../members/single/profile/profile-wp.php:33
+msgid "Website"
+msgstr ""
+
+#: ../footer.php:81
+msgid "Copyright &copy;"
+msgstr ""
+
+#: ../footer.php:81
+msgid "GhostPool.com"
+msgstr ""
+
+#: ../footer.php:81
+msgid "All rights reserved."
+msgstr ""
+
+#: ../functions.php:152
+msgid "Navigation"
+msgstr ""
+
+#: ../functions.php:152
+msgid "Please enter something in the search box!"
+msgstr ""
+
+#: ../functions.php:193
+msgid "Main Navigation"
+msgstr ""
+
+#: ../functions.php:359 ../lib/admin/inc/theme-meta-options.php:52
+#: ../lib/admin/inc/theme-meta-options.php:155
+msgid "Page"
+msgstr ""
+
+#: ../functions.php:359
+msgid "of"
+msgstr ""
+
+#: ../functions.php:411
+msgid "Use Image"
+msgstr ""
+
+#: ../header.php:77
+msgid "Logout"
+msgstr ""
+
+#: ../header.php:81 ../login.php:95
+msgid "Login"
+msgstr ""
+
+#: ../header.php:83
+msgid "Sign Up"
+msgstr ""
+
+#: ../homepage.php:20 ../login.php:65 ../login.php:71 ../page.php:78
+#: ../page.php:84 ../single.php:78 ../single.php:84
+#: ../lib/admin/inc/shortcodes/related-posts.php:237
+msgid "Read More &raquo;"
+msgstr ""
+
+#: ../index.php:13
+msgid "Why Am I Seeing This Page?"
+msgstr ""
+
+#: ../index.php:17
+msgid "Go to"
+msgstr ""
+
+#: ../index.php:17
+msgid "<em>Settings -> Reading</em>"
+msgstr ""
+
+#: ../index.php:17
+msgid ""
+", select \"A static page\" option and from the \"Front page\" drop down menu "
+"select the desired page (leave the Posts page drop down menu empty)."
+msgstr ""
+
+#: ../index.php:21
+msgid "For more info on setting up the theme please read the"
+msgstr ""
+
+#: ../index.php:21
+msgid "help file"
+msgstr ""
+
+#: ../login.php:80
+msgid "You are already logged in."
+msgstr ""
+
+#: ../login.php:89 ../login.php:90
+#: ../lib/admin/inc/shortcodes/login-form.php:7
+#: ../lib/admin/inc/shortcodes/register-form.php:7
+#: ../registration/register.php:37
+msgid "Username"
+msgstr ""
+
+#: ../login.php:92 ../login.php:93
+#: ../lib/admin/inc/shortcodes/login-form.php:8
+msgid "Password"
+msgstr ""
+
+#: ../login.php:96
+msgid "Remember Me"
+msgstr ""
+
+#: ../login.php:108 ../lib/admin/inc/shortcodes/register-form.php:23
+msgid "Register"
+msgstr ""
+
+#: ../login.php:110
+msgid "Lost Password"
+msgstr ""
+
+#: ../page.php:49 ../post-loop.php:99 ../single.php:49
+#: ../lib/admin/inc/shortcodes/posts.php:243
+#: ../lib/admin/inc/shortcodes/related-posts.php:224
+msgid "0"
+msgstr ""
+
+#: ../page.php:49 ../post-loop.php:99 ../single.php:49
+#: ../lib/admin/inc/shortcodes/posts.php:243
+#: ../lib/admin/inc/shortcodes/related-posts.php:224
+msgid "1"
+msgstr ""
+
+#: ../page.php:49 ../post-loop.php:99 ../single.php:49
+#: ../lib/admin/inc/shortcodes/posts.php:243
+#: ../lib/admin/inc/shortcodes/related-posts.php:224
+msgid "%"
+msgstr ""
+
+#: ../post-loop.php:22
+msgid "search results for"
+msgstr ""
+
+#: ../post-loop.php:28
+msgid "'s Posts"
+msgstr ""
+
+#: ../post-loop.php:30
+msgid "Archives"
+msgstr ""
+
+#: ../post-loop.php:151
+msgid "Try searching again using the search form below."
+msgstr ""
+
+#: ../searchform.php:8
+msgid "Search"
+msgstr ""
+
+#: ../activity/activity-loop.php:41
+msgid "Load More"
+msgstr ""
+
+#: ../activity/activity-loop.php:55
+#: ../lib/admin/inc/shortcodes/activity-stream.php:64
+msgid "Sorry, there was no activity found. Please try a different filter."
+msgstr ""
+
+#: ../activity/comment.php:30
+#, php-format
+msgid ""
+"<a href=\"%1$s\">%2$s</a> replied <a href=\"%3$s\" class=\"activity-time-"
+"since\"><span class=\"time-since\">%4$s</span></a>"
+msgstr ""
+
+#: ../activity/comment.php:46 ../members/single/messages/messages-loop.php:51
+#: ../members/single/messages/single.php:24
+msgid "Delete"
+msgstr ""
+
+#: ../activity/entry.php:37
+msgid "In reply to: "
+msgstr ""
+
+#: ../activity/entry.php:37
+msgid "View Thread / Permalink"
+msgstr ""
+
+#: ../activity/entry.php:37 ../buddypress/functions-buddypress.php:63
+msgid "View"
+msgstr ""
+
+#: ../activity/entry.php:60
+#, php-format
+msgid "Comment <span>%s</span>"
+msgstr ""
+
+#: ../activity/entry.php:68 ../buddypress/functions-buddypress.php:64
+msgid "Favorite"
+msgstr ""
+
+#: ../activity/entry.php:72 ../buddypress/functions-buddypress.php:65
+msgid "Remove Favorite"
+msgstr ""
+
+#: ../activity/entry.php:104
+msgid "Post"
+msgstr ""
+
+#: ../activity/entry.php:104
+msgid "or press esc to cancel."
+msgstr ""
+
+#: ../activity/index.php:21
+msgid "Site Activity"
+msgstr ""
+
+#: ../activity/index.php:39
+msgid "The public activity for everyone on this site."
+msgstr ""
+
+#: ../activity/index.php:39 ../members/index.php:35
+#, php-format
+msgid "All Members <span>%s</span>"
+msgstr ""
+
+#: ../activity/index.php:49
+msgid "The activity of my friends only."
+msgstr ""
+
+#: ../activity/index.php:49 ../members/index.php:39
+#, php-format
+msgid "My Friends <span>%s</span>"
+msgstr ""
+
+#: ../activity/index.php:61
+msgid "The activity of groups I am a member of."
+msgstr ""
+
+#: ../activity/index.php:61 ../groups/index.php:39
+#, php-format
+msgid "My Groups <span>%s</span>"
+msgstr ""
+
+#: ../activity/index.php:71
+msgid "The activity I've marked as a favorite."
+msgstr ""
+
+#: ../activity/index.php:71
+#, php-format
+msgid "My Favorites <span>%s</span>"
+msgstr ""
+
+#: ../activity/index.php:79
+msgid "Activity that I have been mentioned in."
+msgstr ""
+
+#: ../activity/index.php:79
+msgid "Mentions"
+msgstr ""
+
+#: ../activity/index.php:91 ../groups/single/activity.php:3
+msgid "RSS Feed"
+msgstr ""
+
+#: ../activity/index.php:91 ../groups/single/activity.php:3
+msgid "RSS"
+msgstr ""
+
+#: ../activity/index.php:96 ../groups/single/activity.php:8
+#: ../members/single/activity.php:18
+msgid "Show:"
+msgstr ""
+
+#: ../activity/index.php:98 ../groups/single/activity.php:10
+#: ../members/single/activity.php:20
+msgid "Everything"
+msgstr ""
+
+#: ../activity/index.php:99 ../groups/single/activity.php:11
+#: ../members/single/activity.php:21
+msgid "Updates"
+msgstr ""
+
+#: ../activity/index.php:103 ../forums/forums-loop.php:40
+#: ../members/single/activity.php:27
+msgid "Posts"
+msgstr ""
+
+#: ../activity/index.php:104 ../members/single/activity.php:28
+msgid "Comments"
+msgstr ""
+
+#: ../activity/index.php:110 ../groups/single/activity.php:14
+#: ../members/single/activity.php:43
+msgid "Forum Topics"
+msgstr ""
+
+#: ../activity/index.php:111 ../groups/single/activity.php:15
+#: ../members/single/activity.php:44
+msgid "Forum Replies"
+msgstr ""
+
+#: ../activity/index.php:117 ../members/single/activity.php:50
+msgid "New Groups"
+msgstr ""
+
+#: ../activity/index.php:118 ../groups/single/activity.php:18
+#: ../members/single/activity.php:51
+msgid "Group Memberships"
+msgstr ""
+
+#: ../activity/index.php:124 ../members/single/activity.php:35
+msgid "Friendships"
+msgstr ""
+
+#: ../activity/index.php:128
+msgid "New Members"
+msgstr ""
+
+#: ../activity/post-form.php:23
+#, php-format
+msgid "What's new in %s, %s?"
+msgstr ""
+
+#: ../activity/post-form.php:25
+#, php-format
+msgid "What's new, %s?"
+msgstr ""
+
+#: ../activity/post-form.php:35
+msgid "Post Update"
+msgstr ""
+
+#: ../activity/post-form.php:42
+msgid "Post in"
+msgstr ""
+
+#: ../activity/post-form.php:45 ../members/single/profile/profile-wp.php:8
+msgid "My Profile"
+msgstr ""
+
+#: ../blogs/blogs-loop.php:90
+msgid "Sorry, there were no sites found."
+msgstr ""
+
+#: ../blogs/create.php:21 ../blogs/index.php:21
+msgid "Create a Site"
+msgstr ""
+
+#: ../blogs/create.php:21 ../blogs/index.php:21
+msgid "Site Directory"
+msgstr ""
+
+#: ../blogs/create.php:32
+msgid "Site registration is currently disabled"
+msgstr ""
+
+#: ../blogs/index.php:33
+#, php-format
+msgid "All Sites <span>%s</span>"
+msgstr ""
+
+#: ../blogs/index.php:37
+#, php-format
+msgid "My Sites <span>%s</span>"
+msgstr ""
+
+#: ../blogs/index.php:53 ../forums/index.php:60 ../groups/index.php:55
+#: ../groups/single/forum.php:36 ../members/index.php:55
+#: ../members/single/blogs.php:19 ../members/single/forums.php:18
+#: ../members/single/friends.php:20 ../members/single/groups.php:20
+msgid "Order By:"
+msgstr ""
+
+#: ../blogs/index.php:55 ../forums/index.php:62 ../groups/index.php:57
+#: ../groups/single/forum.php:38 ../members/index.php:57
+#: ../members/single/blogs.php:21 ../members/single/forums.php:20
+#: ../members/single/friends.php:22 ../members/single/groups.php:22
+msgid "Last Active"
+msgstr ""
+
+#: ../blogs/index.php:56 ../members/single/blogs.php:22
+msgid "Newest"
+msgstr ""
+
+#: ../blogs/index.php:57 ../groups/index.php:60 ../members/index.php:62
+#: ../members/single/blogs.php:23 ../members/single/friends.php:24
+#: ../members/single/groups.php:25
+msgid "Alphabetical"
+msgstr ""
+
+#: ../buddypress/functions-buddypress.php:55
+msgid "My Favorites"
+msgstr ""
+
+#: ../buddypress/functions-buddypress.php:56
+msgid "Accepted"
+msgstr ""
+
+#: ../buddypress/functions-buddypress.php:57
+msgid "Rejected"
+msgstr ""
+
+#: ../buddypress/functions-buddypress.php:58
+msgid "Show all comments for this thread"
+msgstr ""
+
+#: ../buddypress/functions-buddypress.php:59
+#, php-format
+msgid "Show all %d comments"
+msgstr ""
+
+#: ../buddypress/functions-buddypress.php:60
+msgid "Show all"
+msgstr ""
+
+#: ../buddypress/functions-buddypress.php:61
+msgid "comments"
+msgstr ""
+
+#: ../buddypress/functions-buddypress.php:62
+#: ../members/single/profile/edit.php:130 ../registration/register.php:171
+msgid "Close"
+msgstr ""
+
+#: ../buddypress/functions-buddypress.php:66
+msgid ""
+"Your profile has unsaved changes. If you leave the page, the changes will be "
+"lost."
+msgstr ""
+
+#: ../forums/forums-loop.php:39
+msgid "Topic"
+msgstr ""
+
+#: ../forums/forums-loop.php:41
+msgid "Freshness"
+msgstr ""
+
+#: ../forums/forums-loop.php:54 ../groups/single/forum/topic.php:95
+msgid "Permanent link to this post"
+msgstr ""
+
+#: ../forums/forums-loop.php:61
+#, php-format
+msgid "Started by %1$s"
+msgstr ""
+
+#: ../forums/forums-loop.php:72
+#, php-format
+msgid "in %1$s"
+msgstr ""
+
+#: ../forums/forums-loop.php:122
+msgid "Sorry, there were no forum topics found."
+msgstr ""
+
+#: ../forums/index.php:23
+msgid "Forums Directory"
+msgstr ""
+
+#: ../forums/index.php:23 ../groups/single/forum.php:19
+msgid "New Topic"
+msgstr ""
+
+#: ../forums/index.php:40
+#, php-format
+msgid "All Topics <span>%s</span>"
+msgstr ""
+
+#: ../forums/index.php:44
+#, php-format
+msgid "My Topics <span>%s</span>"
+msgstr ""
+
+#: ../forums/index.php:63 ../groups/single/forum.php:39
+#: ../members/single/forums.php:21
+msgid "Most Posts"
+msgstr ""
+
+#: ../forums/index.php:64 ../groups/single/forum.php:40
+#: ../members/single/forums.php:22
+msgid "Unreplied"
+msgstr ""
+
+#: ../forums/index.php:100
+msgid "Create New Topic:"
+msgstr ""
+
+#: ../forums/index.php:104 ../groups/single/forum.php:75
+#: ../groups/single/forum/edit.php:47 ../lib/admin/inc/theme-widgets.php:48
+msgid "Title:"
+msgstr ""
+
+#: ../forums/index.php:107 ../groups/single/forum.php:78
+#: ../groups/single/forum/edit.php:50 ../lib/admin/inc/theme-widgets.php:52
+msgid "Content:"
+msgstr ""
+
+#: ../forums/index.php:110 ../groups/single/forum.php:81
+#: ../groups/single/forum/edit.php:53
+msgid "Tags (comma separated):"
+msgstr ""
+
+#: ../forums/index.php:113
+msgid "Post In Group Forum:"
+msgstr ""
+
+#: ../forums/index.php:116
+msgid "----"
+msgstr ""
+
+#: ../forums/index.php:133 ../groups/single/forum.php:87
+msgid "Post Topic"
+msgstr ""
+
+#: ../forums/index.php:134 ../lib/admin/inc/tinymce/window_options.php:90
+msgid "Cancel"
+msgstr ""
+
+#: ../forums/index.php:145
+#, php-format
+msgid ""
+"You are not a member of any groups so you don't have any group forums you "
+"can post in. To start posting, first find a group that matches the topic "
+"subject you'd like to start. If this group does not exist, why not <a "
+"href='%s'>create a new group</a>? Once you have joined or created the group "
+"you can post your topic in that group's forum."
+msgstr ""
+
+#: ../groups/create.php:18 ../groups/index.php:21
+msgid "Create a Group"
+msgstr ""
+
+#: ../groups/create.php:18 ../groups/index.php:21
+msgid "Groups Directory"
+msgstr ""
+
+#: ../groups/create.php:39 ../groups/single/admin.php:16
+msgid "Group Name (required)"
+msgstr ""
+
+#: ../groups/create.php:42 ../groups/single/admin.php:19
+msgid "Group Description (required)"
+msgstr ""
+
+#: ../groups/create.php:58 ../groups/single/admin.php:56
+msgid "Privacy Options"
+msgstr ""
+
+#: ../groups/create.php:62 ../groups/single/admin.php:61
+msgid "This is a public group"
+msgstr ""
+
+#: ../groups/create.php:64 ../groups/single/admin.php:63
+msgid "Any site member can join this group."
+msgstr ""
+
+#: ../groups/create.php:65 ../groups/create.php:74
+#: ../groups/single/admin.php:64 ../groups/single/admin.php:74
+msgid ""
+"This group will be listed in the groups directory and in search results."
+msgstr ""
+
+#: ../groups/create.php:66 ../groups/single/admin.php:65
+msgid "Group content and activity will be visible to any site member."
+msgstr ""
+
+#: ../groups/create.php:71 ../groups/single/admin.php:71
+msgid "This is a private group"
+msgstr ""
+
+#: ../groups/create.php:73 ../groups/single/admin.php:73
+msgid "Only users who request membership and are accepted can join the group."
+msgstr ""
+
+#: ../groups/create.php:75 ../groups/create.php:84
+#: ../groups/single/admin.php:75 ../groups/single/admin.php:85
+msgid ""
+"Group content and activity will only be visible to members of the group."
+msgstr ""
+
+#: ../groups/create.php:80 ../groups/single/admin.php:81
+msgid "This is a hidden group"
+msgstr ""
+
+#: ../groups/create.php:82 ../groups/single/admin.php:83
+msgid "Only users who are invited can join the group."
+msgstr ""
+
+#: ../groups/create.php:83 ../groups/single/admin.php:84
+msgid ""
+"This group will not be listed in the groups directory or search results."
+msgstr ""
+
+#: ../groups/create.php:89 ../groups/single/admin.php:92
+msgid "Group Invitations"
+msgstr ""
+
+#: ../groups/create.php:91 ../groups/single/admin.php:94
+msgid "Which members of this group are allowed to invite others?"
+msgstr ""
+
+#: ../groups/create.php:96 ../groups/single/admin.php:99
+msgid "All group members"
+msgstr ""
+
+#: ../groups/create.php:101 ../groups/single/admin.php:104
+msgid "Group admins and mods only"
+msgstr ""
+
+#: ../groups/create.php:106 ../groups/single/admin.php:109
+msgid "Group admins only"
+msgstr ""
+
+#: ../groups/create.php:112
+msgid "Group Forums"
+msgstr ""
+
+#: ../groups/create.php:116
+msgid "Should this group have a forum?"
+msgstr ""
+
+#: ../groups/create.php:119 ../groups/single/admin.php:47
+msgid "Enable discussion forum"
+msgstr ""
+
+#: ../groups/create.php:123
+#, php-format
+msgid ""
+"<strong>Attention Site Admin:</strong> Group forums require the <a href=\"%s"
+"\">correct setup and configuration</a> of a bbPress installation."
+msgstr ""
+
+#: ../groups/create.php:149 ../groups/single/admin.php:127
+msgid ""
+"Upload an image to use as an avatar for this group. The image will be shown "
+"on the main group page, and in search results."
+msgstr ""
+
+#: ../groups/create.php:153 ../groups/single/admin.php:131
+#: ../members/single/profile/change-avatar.php:18
+msgid "Upload Image"
+msgstr ""
+
+#: ../groups/create.php:157
+msgid "To skip the avatar upload process, hit the \"Next Step\" button."
+msgstr ""
+
+#: ../groups/create.php:164
+msgid "Crop Group Avatar"
+msgstr ""
+
+#: ../groups/create.php:166 ../groups/single/admin.php:151
+#: ../members/single/profile/change-avatar.php:33
+msgid "Avatar to crop"
+msgstr ""
+
+#: ../groups/create.php:169 ../groups/single/admin.php:154
+#: ../members/single/profile/change-avatar.php:36
+msgid "Avatar preview"
+msgstr ""
+
+#: ../groups/create.php:172 ../groups/single/admin.php:157
+#: ../members/single/profile/change-avatar.php:39
+msgid "Crop Image"
+msgstr ""
+
+#: ../groups/create.php:211 ../groups/single/send-invites.php:22
+msgid "Select people to invite from your friends list."
+msgstr ""
+
+#: ../groups/create.php:229 ../groups/single/send-invites.php:42
+msgid "Remove Invite"
+msgstr ""
+
+#: ../groups/create.php:246 ../groups/single/send-invites.php:73
+msgid ""
+"Once you have built up friend connections you will be able to invite others "
+"to your group."
+msgstr ""
+
+#: ../groups/create.php:268
+msgid "Back to Previous Step"
+msgstr ""
+
+#: ../groups/create.php:275
+msgid "Next Step"
+msgstr ""
+
+#: ../groups/create.php:282
+msgid "Create Group and Continue"
+msgstr ""
+
+#: ../groups/create.php:289
+msgid "Finish"
+msgstr ""
+
+#: ../groups/groups-loop.php:47 ../groups/single/group-header.php:42
+#, php-format
+msgid "active %s"
+msgstr ""
+
+#: ../groups/groups-loop.php:95
+msgid "There were no groups found."
+msgstr ""
+
+#: ../groups/index.php:35
+#, php-format
+msgid "All Groups <span>%s</span>"
+msgstr ""
+
+#: ../groups/index.php:58 ../members/single/groups.php:23
+msgid "Most Members"
+msgstr ""
+
+#: ../groups/index.php:59 ../members/single/groups.php:24
+msgid "Newly Created"
+msgstr ""
+
+#: ../groups/single/admin.php:26
+msgid "Notify group members of these changes via email"
+msgstr ""
+
+#: ../groups/single/admin.php:32 ../groups/single/admin.php:117
+#: ../groups/single/forum/edit.php:58 ../groups/single/forum/edit.php:74
+#: ../lib/admin/inc/theme-options.php:1182
+#: ../lib/admin/inc/theme-options.php:1395
+#: ../members/single/profile/edit.php:148
+#: ../members/single/settings/general.php:72
+#: ../members/single/settings/notifications.php:61
+msgid "Save Changes"
+msgstr ""
+
+#: ../groups/single/admin.php:137
+msgid ""
+"If you'd like to remove the existing avatar but not upload a new one, please "
+"use the delete avatar button."
+msgstr ""
+
+#: ../groups/single/admin.php:139
+#: ../members/single/profile/change-avatar.php:24
+msgid "Delete Avatar"
+msgstr ""
+
+#: ../groups/single/admin.php:149
+msgid "Crop Avatar"
+msgstr ""
+
+#: ../groups/single/admin.php:177
+msgid "Administrators"
+msgstr ""
+
+#: ../groups/single/admin.php:185 ../groups/single/admin.php:212
+#, php-format
+msgid "Profile picture of %s"
+msgstr ""
+
+#: ../groups/single/admin.php:190 ../groups/single/admin.php:217
+msgid "Demote to Member"
+msgstr ""
+
+#: ../groups/single/admin.php:205
+msgid "Moderators"
+msgstr ""
+
+#: ../groups/single/admin.php:216 ../groups/single/admin.php:272
+msgid "Promote to Admin"
+msgstr ""
+
+#: ../groups/single/admin.php:231
+msgid "Members"
+msgstr ""
+
+#: ../groups/single/admin.php:260
+msgid "(banned)"
+msgstr ""
+
+#: ../groups/single/admin.php:266
+msgid "Unban this member"
+msgstr ""
+
+#: ../groups/single/admin.php:266
+msgid "Remove Ban"
+msgstr ""
+
+#: ../groups/single/admin.php:270
+msgid "Kick and ban this member"
+msgstr ""
+
+#: ../groups/single/admin.php:270
+msgid "Kick &amp; Ban"
+msgstr ""
+
+#: ../groups/single/admin.php:271
+msgid "Promote to Mod"
+msgstr ""
+
+#: ../groups/single/admin.php:276
+msgid "Remove this member"
+msgstr ""
+
+#: ../groups/single/admin.php:276
+msgid "Remove from group"
+msgstr ""
+
+#: ../groups/single/admin.php:290 ../groups/single/members.php:87
+msgid "This group has no members."
+msgstr ""
+
+#: ../groups/single/admin.php:320 ../members/single/friends/requests.php:37
+#: ../members/single/groups/invites.php:23
+msgid "Accept"
+msgstr ""
+
+#: ../groups/single/admin.php:322 ../members/single/friends/requests.php:38
+#: ../members/single/groups/invites.php:24
+msgid "Reject"
+msgstr ""
+
+#: ../groups/single/admin.php:335
+msgid "There are no pending membership requests."
+msgstr ""
+
+#: ../groups/single/admin.php:352
+msgid ""
+"WARNING: Deleting this group will completely remove ALL content associated "
+"with it. There is no way back, please be careful with this option."
+msgstr ""
+
+#: ../groups/single/admin.php:355
+msgid "I understand the consequences of deleting this group."
+msgstr ""
+
+#: ../groups/single/admin.php:360
+msgid "Delete Group"
+msgstr ""
+
+#: ../groups/single/forum.php:27 ../groups/single/forum/edit.php:16
+#: ../groups/single/forum/topic.php:17
+msgid "Forum Directory"
+msgstr ""
+
+#: ../groups/single/forum.php:69
+msgid "You will auto join this group when you start a new topic."
+msgstr ""
+
+#: ../groups/single/forum.php:73
+msgid "Post a New Topic:"
+msgstr ""
+
+#: ../groups/single/group-header.php:11
+msgid "Group Admins"
+msgstr ""
+
+#: ../groups/single/group-header.php:20
+msgid "Group Mods"
+msgstr ""
+
+#: ../groups/single/request-membership.php:4
+#, php-format
+msgid "You are requesting to become a member of the group '%s'."
+msgstr ""
+
+#: ../groups/single/request-membership.php:7
+msgid "Comments (optional)"
+msgstr ""
+
+#: ../groups/single/request-membership.php:12
+msgid "Send Request"
+msgstr ""
+
+#: ../groups/single/send-invites.php:60
+msgid "Send Invites"
+msgstr ""
+
+#: ../groups/single/forum/edit.php:25
+msgid "Edit:"
+msgstr ""
+
+#: ../groups/single/forum/edit.php:87
+msgid "This topic does not exist."
+msgstr ""
+
+#: ../groups/single/forum/topic.php:9
+msgid "New Reply"
+msgstr ""
+
+#: ../groups/single/forum/topic.php:32
+msgid "Topic tags:"
+msgstr ""
+
+#: ../groups/single/forum/topic.php:81
+#, php-format
+msgid "%1$s said %2$s:"
+msgstr ""
+
+#: ../groups/single/forum/topic.php:119
+msgid "There are no posts for this topic."
+msgstr ""
+
+#: ../groups/single/forum/topic.php:134
+msgid "You will auto join this group when you reply to this topic."
+msgstr ""
+
+#: ../groups/single/forum/topic.php:139
+msgid "Add a reply:"
+msgstr ""
+
+#: ../groups/single/forum/topic.php:144
+msgid "Post Reply"
+msgstr ""
+
+#: ../groups/single/forum/topic.php:155
+msgid "This topic is closed, replies are no longer accepted."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:155
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:156
+msgid "Install Plugins"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:157
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:169
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:171
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1840
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:172
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1313
+#: ../registration/activate.php:38
+msgid "Activate"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1950
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1950
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/admin/inc/class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:9
+#: ../lib/admin/inc/theme-options.php:356
+#: ../lib/admin/inc/theme-options.php:363
+msgid "Post Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:10
+#: ../lib/admin/inc/theme-options.php:548
+#: ../lib/admin/inc/theme-options.php:555
+msgid "Page Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:11
+msgid "Slide Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:24
+#: ../lib/admin/inc/theme-meta-options.php:93
+msgid ""
+"Controls the thumbnails used on category, archive, tag and search result "
+"pages."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:24
+#: ../lib/admin/inc/theme-meta-options.php:93
+msgid "Thumbnail Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:26
+#: ../lib/admin/inc/theme-meta-options.php:95
+#: ../lib/admin/inc/theme-options.php:197
+msgid "Thumbnail Width"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:26
+#: ../lib/admin/inc/theme-meta-options.php:95
+msgid ""
+"The width to crop the thumbnail to (set to 0 to have a proportionate width)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:28
+#: ../lib/admin/inc/theme-meta-options.php:97
+#: ../lib/admin/inc/theme-options.php:207
+msgid "Thumbnail Height"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:28
+#: ../lib/admin/inc/theme-meta-options.php:97
+msgid ""
+"The height to crop the thumbnail to (set to 0 to have a proportionate "
+"height)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:33
+#: ../lib/admin/inc/theme-meta-options.php:102
+msgid "Controls the featured image displayed within this page."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:33
+#: ../lib/admin/inc/theme-meta-options.php:102
+msgid "Image Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:35
+#: ../lib/admin/inc/theme-meta-options.php:104
+#: ../lib/admin/inc/theme-options.php:372
+#: ../lib/admin/inc/theme-options.php:564
+msgid "Featured Image"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:35
+#: ../lib/admin/inc/theme-meta-options.php:104
+msgid "Choose whether to display the featured image within your page."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:35
+#: ../lib/admin/inc/theme-meta-options.php:41
+#: ../lib/admin/inc/theme-meta-options.php:45
+#: ../lib/admin/inc/theme-meta-options.php:67
+#: ../lib/admin/inc/theme-meta-options.php:69
+#: ../lib/admin/inc/theme-meta-options.php:104
+#: ../lib/admin/inc/theme-meta-options.php:110
+#: ../lib/admin/inc/theme-meta-options.php:114
+#: ../lib/admin/inc/theme-meta-options.php:125
+#: ../lib/admin/inc/theme-meta-options.php:127
+msgid "Default"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:35
+#: ../lib/admin/inc/theme-meta-options.php:69
+#: ../lib/admin/inc/theme-meta-options.php:104
+#: ../lib/admin/inc/theme-meta-options.php:127
+#: ../lib/admin/inc/theme-options.php:270
+#: ../lib/admin/inc/theme-options.php:377
+#: ../lib/admin/inc/theme-options.php:454
+#: ../lib/admin/inc/theme-options.php:569
+#: ../lib/admin/inc/theme-options.php:646
+#: ../lib/admin/inc/theme-options.php:757
+#: ../lib/admin/inc/theme-options.php:811
+msgid "Show"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:35
+#: ../lib/admin/inc/theme-meta-options.php:69
+#: ../lib/admin/inc/theme-meta-options.php:104
+#: ../lib/admin/inc/theme-meta-options.php:127
+#: ../lib/admin/inc/theme-options.php:270
+#: ../lib/admin/inc/theme-options.php:377
+#: ../lib/admin/inc/theme-options.php:454
+#: ../lib/admin/inc/theme-options.php:569
+#: ../lib/admin/inc/theme-options.php:646
+#: ../lib/admin/inc/theme-options.php:757
+#: ../lib/admin/inc/theme-options.php:811
+msgid "Hide"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:37
+#: ../lib/admin/inc/theme-meta-options.php:106
+#: ../lib/admin/inc/theme-options.php:381
+#: ../lib/admin/inc/theme-options.php:527
+#: ../lib/admin/inc/theme-options.php:573
+msgid "Image Width"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:37
+#: ../lib/admin/inc/theme-meta-options.php:106
+#: ../lib/admin/inc/theme-options.php:528
+msgid ""
+"The width to crop the image to (set to 0 to have a proportionate width)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:39
+#: ../lib/admin/inc/theme-meta-options.php:108
+#: ../lib/admin/inc/theme-options.php:391
+#: ../lib/admin/inc/theme-options.php:537
+#: ../lib/admin/inc/theme-options.php:583
+msgid "Image Height"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:39
+#: ../lib/admin/inc/theme-meta-options.php:108
+#: ../lib/admin/inc/theme-options.php:538
+msgid ""
+"The height to crop the image to (set to 0 to have a proportionate height)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:41
+#: ../lib/admin/inc/theme-meta-options.php:110
+#: ../lib/admin/inc/theme-options.php:217
+#: ../lib/admin/inc/theme-options.php:401
+#: ../lib/admin/inc/theme-options.php:593
+msgid "Image Wrap"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:41
+#: ../lib/admin/inc/theme-meta-options.php:110
+#: ../lib/admin/inc/theme-options.php:218
+#: ../lib/admin/inc/theme-options.php:402
+#: ../lib/admin/inc/theme-options.php:594
+msgid "Choose whether the page content wraps around the featured image."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:41
+#: ../lib/admin/inc/theme-meta-options.php:45
+#: ../lib/admin/inc/theme-meta-options.php:110
+#: ../lib/admin/inc/theme-meta-options.php:114
+#: ../lib/admin/inc/theme-options.php:107
+#: ../lib/admin/inc/theme-options.php:118
+#: ../lib/admin/inc/theme-options.php:176
+#: ../lib/admin/inc/theme-options.php:222
+#: ../lib/admin/inc/theme-options.php:231
+#: ../lib/admin/inc/theme-options.php:304
+#: ../lib/admin/inc/theme-options.php:315
+#: ../lib/admin/inc/theme-options.php:324
+#: ../lib/admin/inc/theme-options.php:333
+#: ../lib/admin/inc/theme-options.php:342
+#: ../lib/admin/inc/theme-options.php:351
+#: ../lib/admin/inc/theme-options.php:406
+#: ../lib/admin/inc/theme-options.php:415
+#: ../lib/admin/inc/theme-options.php:465
+#: ../lib/admin/inc/theme-options.php:474
+#: ../lib/admin/inc/theme-options.php:483
+#: ../lib/admin/inc/theme-options.php:492
+#: ../lib/admin/inc/theme-options.php:501
+#: ../lib/admin/inc/theme-options.php:512
+#: ../lib/admin/inc/theme-options.php:523
+#: ../lib/admin/inc/theme-options.php:598
+#: ../lib/admin/inc/theme-options.php:607
+#: ../lib/admin/inc/theme-options.php:657
+#: ../lib/admin/inc/theme-options.php:666
+#: ../lib/admin/inc/theme-options.php:675
+#: ../lib/admin/inc/theme-options.php:686
+#: ../lib/admin/inc/theme-options.php:711
+msgid "Enable"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:41
+#: ../lib/admin/inc/theme-meta-options.php:45
+#: ../lib/admin/inc/theme-meta-options.php:110
+#: ../lib/admin/inc/theme-meta-options.php:114
+#: ../lib/admin/inc/theme-options.php:107
+#: ../lib/admin/inc/theme-options.php:118
+#: ../lib/admin/inc/theme-options.php:176
+#: ../lib/admin/inc/theme-options.php:222
+#: ../lib/admin/inc/theme-options.php:231
+#: ../lib/admin/inc/theme-options.php:304
+#: ../lib/admin/inc/theme-options.php:315
+#: ../lib/admin/inc/theme-options.php:324
+#: ../lib/admin/inc/theme-options.php:333
+#: ../lib/admin/inc/theme-options.php:342
+#: ../lib/admin/inc/theme-options.php:351
+#: ../lib/admin/inc/theme-options.php:406
+#: ../lib/admin/inc/theme-options.php:415
+#: ../lib/admin/inc/theme-options.php:465
+#: ../lib/admin/inc/theme-options.php:474
+#: ../lib/admin/inc/theme-options.php:483
+#: ../lib/admin/inc/theme-options.php:492
+#: ../lib/admin/inc/theme-options.php:501
+#: ../lib/admin/inc/theme-options.php:512
+#: ../lib/admin/inc/theme-options.php:523
+#: ../lib/admin/inc/theme-options.php:598
+#: ../lib/admin/inc/theme-options.php:607
+#: ../lib/admin/inc/theme-options.php:657
+#: ../lib/admin/inc/theme-options.php:666
+#: ../lib/admin/inc/theme-options.php:675
+#: ../lib/admin/inc/theme-options.php:686
+#: ../lib/admin/inc/theme-options.php:711
+msgid "Disable"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:45
+#: ../lib/admin/inc/theme-meta-options.php:114
+#: ../lib/admin/inc/theme-options.php:226
+#: ../lib/admin/inc/theme-options.php:410
+#: ../lib/admin/inc/theme-options.php:602
+msgid "Hard Crop"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:45
+#: ../lib/admin/inc/theme-meta-options.php:114
+#: ../lib/admin/inc/theme-options.php:227
+msgid "Choose whether the image is hard cropped."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:50
+msgid ""
+"Can be used when your posts are displayed in <code>[posts]</code> shortcodes."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:50
+msgid "Portfolio Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:52
+#: ../lib/admin/inc/theme-meta-options.php:155
+msgid "Link Type"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:52
+msgid "Choose how your portfolio link opens."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:52
+#: ../lib/admin/inc/theme-meta-options.php:155
+msgid "Lightbox Image"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:52
+#: ../lib/admin/inc/theme-meta-options.php:155
+msgid "Lightbox Video"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:52
+#: ../lib/admin/inc/theme-meta-options.php:155
+#: ../lib/admin/inc/theme-meta-options.php:174
+#: ../lib/admin/inc/theme-options.php:1298
+msgid "None"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:54
+msgid "Custom URL"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:54
+msgid ""
+"A custom URL which your image links to (overrides the default post URL)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:56
+msgid "Lightbox Content"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:56
+msgid "Upload images/audio/videos that will be opened in the lightbox."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:61
+#: ../lib/admin/inc/theme-meta-options.php:119
+msgid "General formatting settings."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:61
+#: ../lib/admin/inc/theme-meta-options.php:119
+#: ../lib/admin/inc/theme-meta-options.php:151
+msgid "Format Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:63
+#: ../lib/admin/inc/theme-meta-options.php:121
+#: ../lib/admin/inc/theme-options.php:237
+#: ../lib/admin/inc/theme-options.php:421
+#: ../lib/admin/inc/theme-options.php:613
+#: ../lib/admin/inc/theme-options.php:724
+#: ../lib/admin/inc/theme-options.php:778
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:63
+#: ../lib/admin/inc/theme-meta-options.php:65
+#: ../lib/admin/inc/theme-meta-options.php:121
+#: ../lib/admin/inc/theme-meta-options.php:123
+msgid "Choose which sidebar area to display on this page."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:65
+#: ../lib/admin/inc/theme-meta-options.php:123
+#: ../lib/admin/inc/theme-options.php:245
+#: ../lib/admin/inc/theme-options.php:429
+#: ../lib/admin/inc/theme-options.php:621
+#: ../lib/admin/inc/theme-options.php:732
+#: ../lib/admin/inc/theme-options.php:786
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:67
+#: ../lib/admin/inc/theme-meta-options.php:125
+#: ../lib/admin/inc/theme-options.php:255
+#: ../lib/admin/inc/theme-options.php:439
+#: ../lib/admin/inc/theme-options.php:631
+#: ../lib/admin/inc/theme-options.php:742
+#: ../lib/admin/inc/theme-options.php:796
+msgid "Layout"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:67
+#: ../lib/admin/inc/theme-meta-options.php:125
+msgid "Choose the layout for this page."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:67
+#: ../lib/admin/inc/theme-meta-options.php:125
+#: ../lib/admin/inc/theme-options.php:259
+#: ../lib/admin/inc/theme-options.php:443
+#: ../lib/admin/inc/theme-options.php:635
+#: ../lib/admin/inc/theme-options.php:746
+#: ../lib/admin/inc/theme-options.php:800
+msgid "Sidebar Left"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:67
+#: ../lib/admin/inc/theme-meta-options.php:125
+#: ../lib/admin/inc/theme-options.php:259
+#: ../lib/admin/inc/theme-options.php:443
+#: ../lib/admin/inc/theme-options.php:635
+#: ../lib/admin/inc/theme-options.php:746
+#: ../lib/admin/inc/theme-options.php:800
+msgid "Sidebar Right"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:67
+#: ../lib/admin/inc/theme-meta-options.php:125
+#: ../lib/admin/inc/theme-options.php:259
+#: ../lib/admin/inc/theme-options.php:443
+#: ../lib/admin/inc/theme-options.php:635
+#: ../lib/admin/inc/theme-options.php:746
+#: ../lib/admin/inc/theme-options.php:800
+msgid "Sidebar Left & Right"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:67
+#: ../lib/admin/inc/theme-meta-options.php:125
+#: ../lib/admin/inc/theme-options.php:259
+#: ../lib/admin/inc/theme-options.php:443
+#: ../lib/admin/inc/theme-options.php:635
+#: ../lib/admin/inc/theme-options.php:746
+#: ../lib/admin/inc/theme-options.php:800
+msgid "Fullwidth"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:69
+#: ../lib/admin/inc/theme-meta-options.php:127
+#: ../lib/admin/inc/theme-options.php:265
+#: ../lib/admin/inc/theme-options.php:449
+#: ../lib/admin/inc/theme-options.php:641
+#: ../lib/admin/inc/theme-options.php:752
+#: ../lib/admin/inc/theme-options.php:806
+msgid "Title"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:69
+#: ../lib/admin/inc/theme-meta-options.php:127
+msgid "Choose whether to display the title on this page."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:73
+#: ../lib/admin/inc/theme-meta-options.php:131
+msgid "Custom Stylesheet URL"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:73
+#: ../lib/admin/inc/theme-meta-options.php:131
+msgid ""
+"Enter the relative URL to your custom stylesheet e.g. <code>lib/css/custom-"
+"style.css</code>."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:151
+msgid "General product slide settings."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:153
+msgid "Slide URL"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:153
+msgid "Enter the URL you want your slide to link to."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:155
+msgid "Choose how your slide links to the URL you provided to the left."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:160
+msgid "The settings for a video used in this slide."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:160
+msgid "Video Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:162
+msgid "Video URL"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:162
+msgid "The URL of your video or audio file (YouTube/Vimeo/FLV/MP4/M4V/MP3)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:164
+msgid "HTML5 Video URL (Safari/Chrome)"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:164
+msgid "Enter your HTML5 video URL for Safari/Chrome (WEBM/MP4)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:166
+msgid "HTML5 Video URL (FireFox/Opera)"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:166
+msgid "Enter your HTML5 video URL for FireFox/Opera (OGG/OGV)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:168
+msgid "Autostart Video"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:168
+msgid ""
+"Plays the video automatically when the slide comes into view (works in the "
+"first slide only)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:172
+msgid "Video Priority"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:172
+msgid ""
+"If you have provided both flash and HTML5 videos, select which one will take "
+"priority if the browser can play both."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:172
+msgid "Flash"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:172
+msgid "HTML5"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:174
+msgid "Video Controls"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:174
+msgid ""
+"Choose how to display the video controls (does not apply to Vimeo videos)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:174
+msgid "Bottom"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:174
+msgid "Over"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:179
+msgid "The settings for a caption in this slide."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:179
+msgid "Caption Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:181
+msgid "Hide Slide Caption Title"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:181
+msgid "Hide the slide caption title."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:183
+msgid "Caption Position"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:183
+msgid "Choose the caption position."
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:183
+msgid "Top Left"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:183
+msgid "Top Right"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:183
+msgid "Bottom Left"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:183
+msgid "Bottom Right"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:298
+#: ../lib/admin/inc/theme-options.php:1159
+#: ../lib/admin/inc/theme-options.php:1252
+msgid "Upload"
+msgstr ""
+
+#: ../lib/admin/inc/theme-meta-options.php:374
+msgid "Add Media"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:5 ../lib/admin/inc/theme-options.php:12
+#: ../members/single/settings/general.php:49
+msgid "General Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:15
+msgid "This section controls the general settings for the theme."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:21
+msgid "Custom Stylesheet"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:22
+msgid ""
+"Enter the relative URL to your custom stylesheet e.g. <code>lib/css/custom-"
+"style.css</code> (can be overridden on individual posts/pages)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:32
+msgid "Custom Logo Image"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:33
+msgid "Upload your own logo."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:40
+msgid "Logo Width"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:41
+msgid ""
+"Enter the logo width (set to half the original logo width for retina "
+"displays)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:50
+msgid "Logo Height"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:51
+msgid ""
+"Enter the logo height (set to half the original logo height for retina "
+"displays)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:60
+msgid "Logo Top Margin"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:61
+msgid "Enter the top margin of your logo."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:70
+msgid "Logo Right Margin"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:71
+msgid "Enter the right margin of your logo."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:80
+msgid "Logo Bottom Margin"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:81
+msgid "Enter the bottom margin of your logo."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:90
+msgid "Logo Left Margin"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:91
+msgid "Enter the left margin of your logo."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:102
+msgid "Responsive"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:103
+msgid "Choose whether the theme responds to the width of the browser window."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:113
+msgid "Retina Images"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:114
+msgid ""
+"Choose whether to crop images at double the size on retina displays (iPhone "
+"4/5, iPad 3/4, Macbook Pro)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:124
+msgid "Favicon URL (.ico)"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:125
+msgid "Type the URL of your favicon image (.ico, 16x16 or 32x32)"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:132
+msgid "Favicon URL (.png)"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:133
+msgid "Type the URL of your favicon image (.png, 16x16 or 32x32)"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:140
+msgid "Apple Icon URL (.png)"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:141
+msgid ""
+"Type the URL of your apple icon image (.png, 57x57), used for display on the "
+"Apple iPhone"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:150
+msgid "Footer Content"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:151
+msgid "Enter the content you want to display in your footer."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:160
+msgid "Scripts"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:161
+msgid ""
+"Enter any scripts that need to be embedded into your theme (e.g. Google "
+"Analytics)"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:171
+msgid "Preload Effect"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:172
+msgid ""
+"Choose whether to use the preload effect on content in category, archive, "
+"tag pages etc (this can be specified individually from shortcodes using "
+"<code>preload=\"true\"</code>)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:181
+#: ../lib/admin/inc/theme-options.php:188
+msgid "Category Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:191
+msgid ""
+"This section controls the global settings for all category, archive, tag and "
+"search result pages."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:198
+msgid ""
+"The width to crop the thumbnail to (can be overridden on individual posts, "
+"set to 0 to have a proportionate width)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:208
+msgid ""
+"The height to crop the thumbnail to (can be overridden on individual posts, "
+"set to 0 to have a proportionate height)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:238
+#: ../lib/admin/inc/theme-options.php:246
+msgid "Choose which sidebar area to display."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:256
+msgid "Choose the page layout."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:266
+msgid "Choose whether to display the page title."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:276
+msgid "Content Display"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:277
+msgid "Choose whether to display the full post content or an excerpt."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:281
+msgid "Excerpt"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:281
+msgid "Full Content"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:287
+msgid "Excerpt Length"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:288
+msgid "The number of characters in excerpts."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:299
+msgid "Read More Link"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:300
+msgid "Choose whether to display the read more links."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:310
+#: ../lib/admin/inc/theme-options.php:469
+msgid "Post Date"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:311
+#: ../lib/admin/inc/theme-options.php:470
+msgid "Choose whether to display the post date."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:319
+#: ../lib/admin/inc/theme-options.php:460
+msgid "Post Author"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:320
+#: ../lib/admin/inc/theme-options.php:461
+msgid "Choose whether to display the post author."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:328
+#: ../lib/admin/inc/theme-options.php:478
+msgid "Post Categories"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:329
+#: ../lib/admin/inc/theme-options.php:479
+msgid "Choose whether to display the post categories."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:337
+msgid "Post Comments"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:338
+msgid "Choose whether to display the post comments."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:346
+#: ../lib/admin/inc/theme-options.php:496
+msgid "Post Tags"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:347
+#: ../lib/admin/inc/theme-options.php:497
+msgid "Choose whether to display the post tags."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:366
+msgid ""
+"This section controls the global settings for all posts, but most settings "
+"can be overridden on individual posts."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:373
+#: ../lib/admin/inc/theme-options.php:565
+msgid ""
+"Choose whether to display the featured image (can be overridden on "
+"individual posts)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:382
+msgid ""
+"The width to crop the image to (can be overridden on individual posts, set "
+"to 0 to have a proportionate width)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:392
+msgid ""
+"The height to crop the image to (can be overridden on individual posts, set "
+"to 0 to have a proportionate height)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:411
+msgid ""
+"Choose whether the image is hard cropped (can be overridden on individual "
+"posts)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:422
+#: ../lib/admin/inc/theme-options.php:430
+msgid ""
+"Choose which sidebar area to display (can be overridden on individual posts)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:440
+msgid "Choose the page layout (can be overridden on individual posts)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:450
+msgid ""
+"Choose whether to display the page title (can be overridden on individual "
+"posts)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:487
+msgid "Post Comment Number"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:488
+msgid "Choose whether to display the number of post comments."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:507
+#: ../lib/admin/inc/theme-options.php:681
+msgid "Author Info Panel"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:508
+msgid ""
+"Choose whether to display the author info panel (can also be inserted in "
+"individual posts using the <code>[author]</code> shortcode)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:518
+msgid "Related Items"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:519
+msgid ""
+"Choose whether to display a related items section (can also be inserted in "
+"individual posts using the <code>[related_posts]</code> shortcode)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:558
+msgid ""
+"This section controls the global settings for all pages, but most settings "
+"can be overridden on individual pages."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:574
+msgid ""
+"The width to crop the image to (can be overridden on individual pages, set "
+"to 0 to have a proportionate width)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:584
+msgid ""
+"The height to crop the image to (can be overridden on individual pages, set "
+"to 0 to have a proportionate height)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:603
+msgid ""
+"Choose whether the image is hard cropped (can be overridden on individual "
+"pages)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:614
+#: ../lib/admin/inc/theme-options.php:622
+#: ../lib/admin/inc/theme-options.php:725
+#: ../lib/admin/inc/theme-options.php:733
+#: ../lib/admin/inc/theme-options.php:779
+#: ../lib/admin/inc/theme-options.php:787
+msgid ""
+"Choose which sidebar area to display (can be overridden on individual pages)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:632
+#: ../lib/admin/inc/theme-options.php:743
+#: ../lib/admin/inc/theme-options.php:797
+msgid "Choose the page layout (can be overridden on individual pages)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:642
+#: ../lib/admin/inc/theme-options.php:753
+#: ../lib/admin/inc/theme-options.php:807
+msgid ""
+"Choose whether to display the page title (can be overridden on individual "
+"pages)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:652
+msgid "Page Author"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:653
+msgid "Choose whether to display the page author."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:661
+msgid "Page Date"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:662
+msgid "Choose whether to display the page date."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:670
+msgid "Page Comment Number"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:671
+msgid "Choose whether to display the number of page comments."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:682
+msgid "Choose whether to display an author info panel."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:691
+#: ../lib/admin/inc/theme-options.php:698
+msgid "BuddyPress Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:701
+msgid "This section controls the BuddyPress pages created by the plugin."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:707
+msgid "Login/Register Links"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:708
+msgid "Choose whether to display the login and register links in the header."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:715
+msgid "Login URL"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:716
+msgid "Enter the URL you have assigned the Login page template to."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:762
+#: ../lib/admin/inc/theme-options.php:769
+msgid "bbPress Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:772
+msgid "This section controls the bbPress pages created by the plugin."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:816
+#: ../lib/admin/inc/theme-options.php:823
+msgid "Style Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:826
+msgid ""
+"This section provides you with some basic settings to change the look of the "
+"theme. If you want to customize the design of the theme further you can add "
+"your own CSS styling in \"CSS Settings\" tab."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:832
+msgid "Primary Font"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:833
+msgid ""
+"Enter the name of the font you want to use for the primary text (e.g. Times "
+"New Roman, Arial, Oswald). To use <a href=\"http://www.google.com/webfonts\" "
+"target=\"_blank\">Google Web Fonts</a> get the \"Standard\" code provided by "
+"Google and add this to \"Scripts\" box in the \"General Settings\" tab."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:842
+msgid "Primary Text Size"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:843
+msgid "The text size used for the primary text."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:852
+msgid "Primary Text Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:853
+msgid "The text color used for the primary text."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:860
+msgid "Primary Link Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:861
+msgid "The link color used for the primary text."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:868
+msgid "Primary Link Hover Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:869
+msgid "The link hover color used for the primary text."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:877
+msgid "Primary Background Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:878
+msgid "The backgroud color used for the primary content."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:885
+msgid "Primary Border Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:886
+msgid "The border color used for the primary content."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:895
+msgid "Secondary Background Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:896
+msgid "The background color used for the secondary content."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:903
+msgid "Secondary Background Hover Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:904
+msgid "The background hover color used for the secondary content."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:913
+msgid "Heading Font"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:914
+msgid ""
+"Enter the name of the font you want to use for the headings (e.g. Times New "
+"Roman, Arial, Oswald). To use <a href=\"http://www.google.com/webfonts\" "
+"target=\"_blank\">Google Web Fonts</a> get the \"Standard\" code provided by "
+"Google and add this to \"Scripts\" box in the \"General Settings\" tab."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:923
+msgid "Heading 1 Text Size"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:924
+msgid "The text size used in &lt;h1&gt; headings."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:933
+msgid "Heading 2 Text Size"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:934
+msgid "The text size used in &lt;h2&gt; headings."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:943
+msgid "Heading 3 Text Size"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:944
+msgid "The text size used in &lt;h3&gt; headings."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:953
+msgid "Heading Text Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:954
+msgid "The text colour used in headings."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:961
+msgid "Heading Link Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:962
+msgid "The link colour used in headings."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:969
+msgid "Heading Link Hover Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:970
+msgid "The link hover colour used in headings."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:979
+msgid "Header Background Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:980
+msgid "The background color of the header at the top of the page."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:987
+msgid "Header Link Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:988
+msgid ""
+"The link color of the navigation text in the header at the top of the page."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:997
+msgid "Primary Button Text Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:998
+msgid "The text color used for the primary buttons."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1005
+msgid "Primary Button Background Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1006
+msgid "The background color used for the primary buttons."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1013
+msgid "Primary Button Background Hover Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1014
+msgid "The background hover color used for the primary buttons."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1023
+msgid "Secondary Button Text Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1024
+msgid "The text color used for the secondary buttons."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1031
+msgid "Secondary Button Background Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1032
+msgid "The background color used for the secondary buttons."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1039
+msgid "Secondary Button Background Hover Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1040
+msgid "The background hover color used for the secondary buttons."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1049
+msgid "Icon Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1050
+msgid "The color used for the theme icons."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1057
+msgid "Icon Hover Color"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1058
+msgid "The hover color used for the theme icons."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1066
+#: ../lib/admin/inc/theme-options.php:1073
+msgid "CSS Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1076
+msgid ""
+"You can add your own CSS below to style the theme. This CSS will not be lost "
+"if you update the theme. For more information on how to find the names of "
+"the elements you want to style  click"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1076
+msgid "here"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1082
+msgid "Custom CSS"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1131
+#: ../lib/admin/inc/theme-options.php:1148
+msgid "Theme Options"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1139
+msgid "Options Saved"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1140
+msgid "Options Reset"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1150
+#: ../lib/admin/inc/theme-options.php:1475
+msgid "Help File"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1150
+#: ../lib/admin/inc/theme-options.php:1475
+msgid "Changelog"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1150
+#: ../lib/admin/inc/theme-options.php:1475
+msgid "Setup Help & Bug Fixes"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1150
+#: ../lib/admin/inc/theme-options.php:1475
+msgid "Tweaks & Customizations"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1154
+msgid "Import Theme Options"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1155
+msgid "If you have a back up of your theme options you can import them below."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1165
+msgid "Export Theme Options"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1166
+msgid ""
+"If you want to create a back up of all your theme options click the Export "
+"button below (will only back up your theme options and not your post/page/"
+"images data)."
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1169
+msgid "Export Theme Settings"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1180
+msgid "Import/Export Theme Options"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1400
+msgid "Are you sure you want to reset all the theme options&#63;"
+msgstr ""
+
+#: ../lib/admin/inc/theme-options.php:1401
+msgid "Reset"
+msgstr ""
+
+#: ../lib/admin/inc/theme-other-options.php:14
+msgid "Lightbox URL"
+msgstr ""
+
+#: ../lib/admin/inc/theme-other-options.php:17
+msgid ""
+"The URL of an image, video or audio file (YouTube/Vimeo/FLV/MP4/M4V/MP3) "
+"that loads in the lightbox."
+msgstr ""
+
+#: ../lib/admin/inc/theme-sidebars.php:7
+msgid "Standard Left Sidebar"
+msgstr ""
+
+#: ../lib/admin/inc/theme-sidebars.php:17
+msgid "Standard Right Sidebar"
+msgstr ""
+
+#: ../lib/admin/inc/theme-sidebars.php:26
+msgid "Footer 1"
+msgstr ""
+
+#: ../lib/admin/inc/theme-sidebars.php:33
+msgid "Footer 2"
+msgstr ""
+
+#: ../lib/admin/inc/theme-sidebars.php:40
+msgid "Footer 3"
+msgstr ""
+
+#: ../lib/admin/inc/theme-sidebars.php:47
+msgid "Footer 4"
+msgstr ""
+
+#: ../lib/admin/inc/theme-sidebars.php:54
+msgid "Footer 5"
+msgstr ""
+
+#: ../lib/admin/inc/theme-widgets.php:13
+msgid "Display custom content such as Google ads, flash and javascript."
+msgstr ""
+
+#: ../lib/admin/inc/shortcodes/author-info.php:18
+msgid "By"
+msgstr ""
+
+#: ../lib/admin/inc/shortcodes/contact-form.php:24
+msgid "Thanks"
+msgstr ""
+
+#: ../lib/admin/inc/shortcodes/contact-form.php:24
+msgid "Your message was successfully sent."
+msgstr ""
+
+#: ../lib/admin/inc/shortcodes/contact-form.php:30
+msgid "There was an error submitting this message."
+msgstr ""
+
+#: ../lib/admin/inc/shortcodes/contact-form.php:102
+msgid "Send"
+msgstr ""
+
+#: ../lib/admin/inc/shortcodes/dividers.php:11
+msgid "Back To Top"
+msgstr ""
+
+#: ../lib/admin/inc/shortcodes/register-form.php:22
+msgid "A password will be emailed to you"
+msgstr ""
+
+#: ../lib/admin/inc/shortcodes/related-posts.php:114
+msgid "Related Posts"
+msgstr ""
+
+#: ../lib/admin/inc/shortcodes/related-posts.php:241
+msgid "Read More"
+msgstr ""
+
+#: ../lib/admin/inc/tinymce/window_options.php:8
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: ../lib/admin/inc/tinymce/window_options.php:13
+msgid " Shortcodes"
+msgstr ""
+
+#: ../lib/admin/inc/tinymce/window_options.php:25
+msgid "Shortcodes"
+msgstr ""
+
+#: ../lib/admin/inc/tinymce/window_options.php:34
+msgid "Insert a shortcode from the drop down menu."
+msgstr ""
+
+#: ../lib/admin/inc/tinymce/window_options.php:38
+msgid "Select A Shortcode"
+msgstr ""
+
+#: ../lib/admin/inc/tinymce/window_options.php:94
+msgid "Insert"
+msgstr ""
+
+#: ../lib/inc/contact.php:49
+msgid "You have received a message from "
+msgstr ""
+
+#: ../lib/inc/contact.php:51
+msgid "Name: "
+msgstr ""
+
+#: ../lib/inc/contact.php:51
+msgid "Email: "
+msgstr ""
+
+#: ../lib/inc/contact.php:51
+msgid "Comment: "
+msgstr ""
+
+#: ../lib/inc/contact.php:52
+msgid "From: "
+msgstr ""
+
+#: ../lib/inc/contact.php:52
+msgid "Reply-To: "
+msgstr ""
+
+#: ../members/index.php:21
+msgid "Members Directory"
+msgstr ""
+
+#: ../members/index.php:58 ../members/single/friends.php:23
+msgid "Newest Registered"
+msgstr ""
+
+#: ../members/members-loop.php:108
+msgid "Sorry, no members were found."
+msgstr ""
+
+#: ../members/single/friends/requests.php:68
+msgid "You have no pending friendship requests."
+msgstr ""
+
+#: ../members/single/groups/invites.php:14
+#, php-format
+msgid "%s members"
+msgstr ""
+
+#: ../members/single/groups/invites.php:37
+msgid "You have no outstanding group invites."
+msgstr ""
+
+#: ../members/single/messages/compose.php:5
+msgid "Send To (Username or Friend's Name)"
+msgstr ""
+
+#: ../members/single/messages/compose.php:14
+msgid "This is a notice to all users."
+msgstr ""
+
+#: ../members/single/messages/compose.php:17
+msgid "Subject"
+msgstr ""
+
+#: ../members/single/messages/compose.php:20
+msgid "Message"
+msgstr ""
+
+#: ../members/single/messages/compose.php:28
+msgid "Send Message"
+msgstr ""
+
+#: ../members/single/messages/messages-loop.php:32
+msgid "From:"
+msgstr ""
+
+#: ../members/single/messages/messages-loop.php:37
+msgid "To:"
+msgstr ""
+
+#: ../members/single/messages/messages-loop.php:43
+msgid "View Message"
+msgstr ""
+
+#: ../members/single/messages/messages-loop.php:51
+#: ../members/single/messages/notices-loop.php:43
+#: ../members/single/messages/single.php:24
+msgid "Delete Message"
+msgstr ""
+
+#: ../members/single/messages/messages-loop.php:69
+msgid "Sorry, no messages were found."
+msgstr ""
+
+#: ../members/single/messages/notices-loop.php:36
+msgid "Sent:"
+msgstr ""
+
+#: ../members/single/messages/notices-loop.php:54
+msgid "Sorry, no notices were found."
+msgstr ""
+
+#: ../members/single/messages/single.php:14
+msgid "You are alone in this conversation."
+msgstr ""
+
+#: ../members/single/messages/single.php:18
+#, php-format
+msgid "Conversation between %s and you."
+msgstr ""
+
+#: ../members/single/messages/single.php:75
+msgid "Send a Reply"
+msgstr ""
+
+#: ../members/single/messages/single.php:91
+msgid "Send Reply"
+msgstr ""
+
+#: ../members/single/profile/change-avatar.php:1
+msgid "Change Avatar"
+msgstr ""
+
+#: ../members/single/profile/change-avatar.php:7
+msgid ""
+"Your avatar will be used on your profile and throughout the site. If there "
+"is a <a href=\"http://gravatar.com\">Gravatar</a> associated with your "
+"account email we will use that, or you can upload an image from your "
+"computer."
+msgstr ""
+
+#: ../members/single/profile/change-avatar.php:14
+msgid ""
+"Click below to select a JPG, GIF or PNG format photo from your computer and "
+"then click 'Upload Image' to proceed."
+msgstr ""
+
+#: ../members/single/profile/change-avatar.php:23
+msgid ""
+"If you'd like to delete your current avatar but not upload a new one, please "
+"use the delete avatar button."
+msgstr ""
+
+#: ../members/single/profile/change-avatar.php:24
+msgid "Delete My Avatar"
+msgstr ""
+
+#: ../members/single/profile/change-avatar.php:31
+msgid "Crop Your New Avatar"
+msgstr ""
+
+#: ../members/single/profile/change-avatar.php:55
+msgid ""
+"Your avatar will be used on your profile and throughout the site. To change "
+"your avatar, please create an account with <a href=\"http://gravatar.com"
+"\">Gravatar</a> using the same email address as you used to register with "
+"this site."
+msgstr ""
+
+#: ../members/single/profile/edit.php:10
+#, php-format
+msgid "Editing '%s' Profile Group"
+msgstr ""
+
+#: ../members/single/profile/edit.php:26 ../members/single/profile/edit.php:33
+#: ../members/single/profile/edit.php:40 ../members/single/profile/edit.php:49
+#: ../members/single/profile/edit.php:67 ../members/single/profile/edit.php:83
+#: ../members/single/profile/edit.php:93 ../registration/register.php:37
+#: ../registration/register.php:41 ../registration/register.php:45
+#: ../registration/register.php:49 ../registration/register.php:76
+#: ../registration/register.php:84 ../registration/register.php:92
+#: ../registration/register.php:102 ../registration/register.php:113
+#: ../registration/register.php:128 ../registration/register.php:139
+#: ../registration/register.php:212 ../registration/register.php:221
+msgid "(required)"
+msgstr ""
+
+#: ../members/single/profile/edit.php:58 ../members/single/profile/edit.php:73
+#: ../registration/register.php:119
+msgid "Clear"
+msgstr ""
+
+#: ../members/single/profile/edit.php:120
+#: ../members/single/profile/edit.php:134 ../registration/register.php:161
+#: ../registration/register.php:176
+#, php-format
+msgid ""
+"This field can be seen by: <span class=\"current-visibility-level\">%s</span>"
+msgstr ""
+
+#: ../members/single/profile/edit.php:120
+msgid "Change"
+msgstr ""
+
+#: ../members/single/profile/edit.php:125 ../registration/register.php:166
+msgid "Who can see this field?"
+msgstr ""
+
+#: ../members/single/profile/profile-wp.php:8
+#, php-format
+msgid "%s's Profile"
+msgstr ""
+
+#: ../members/single/profile/profile-wp.php:24
+msgid "About Me"
+msgstr ""
+
+#: ../members/single/profile/profile-wp.php:42
+msgid "Jabber"
+msgstr ""
+
+#: ../members/single/profile/profile-wp.php:51
+msgid "AOL Messenger"
+msgstr ""
+
+#: ../members/single/profile/profile-wp.php:60
+msgid "Yahoo Messenger"
+msgstr ""
+
+#: ../members/single/settings/capabilities.php:49
+msgid "Capabilities"
+msgstr ""
+
+#: ../members/single/settings/capabilities.php:57
+msgid "This user is a spammer."
+msgstr ""
+
+#: ../members/single/settings/capabilities.php:61
+msgid "Save"
+msgstr ""
+
+#: ../members/single/settings/delete-account.php:50
+#: ../members/single/settings/delete-account.php:76
+msgid "Delete Account"
+msgstr ""
+
+#: ../members/single/settings/delete-account.php:56
+msgid ""
+"Deleting your account will delete all of the content you have created. It "
+"will be completely irrecoverable."
+msgstr ""
+
+#: ../members/single/settings/delete-account.php:60
+msgid ""
+"Deleting this account will delete all of the content it has created. It will "
+"be completely irrecoverable."
+msgstr ""
+
+#: ../members/single/settings/delete-account.php:72
+msgid "I understand the consequences."
+msgstr ""
+
+#: ../members/single/settings/general.php:57
+msgid ""
+"Current Password <span>(required to update email or change current password)"
+"</span>"
+msgstr ""
+
+#: ../members/single/settings/general.php:58
+msgid "Password Lost and Found"
+msgstr ""
+
+#: ../members/single/settings/general.php:58
+msgid "Lost your password?"
+msgstr ""
+
+#: ../members/single/settings/general.php:62
+msgid "Account Email"
+msgstr ""
+
+#: ../members/single/settings/general.php:65
+msgid "Change Password <span>(leave blank for no change)</span>"
+msgstr ""
+
+#: ../members/single/settings/general.php:66
+msgid "New Password"
+msgstr ""
+
+#: ../members/single/settings/general.php:67
+msgid "Repeat New Password"
+msgstr ""
+
+#: ../members/single/settings/notifications.php:49
+msgid "Email Notification"
+msgstr ""
+
+#: ../members/single/settings/notifications.php:54
+msgid "Send a notification by email when:"
+msgstr ""
+
+#: ../registration/activate.php:11
+msgid "Account Activated"
+msgstr ""
+
+#: ../registration/activate.php:13
+msgid "Activate your Account"
+msgstr ""
+
+#: ../registration/activate.php:23
+msgid ""
+"Your account was activated successfully! Your account details have been sent "
+"to you in a separate email."
+msgstr ""
+
+#: ../registration/activate.php:25
+#, php-format
+msgid ""
+"Your account was activated successfully! You can now <a href=\"%s\">log in</"
+"a> with the username and password you provided when you signed up."
+msgstr ""
+
+#: ../registration/activate.php:30
+msgid "Please provide a valid activation key."
+msgstr ""
+
+#: ../registration/activate.php:34
+msgid "Activation Key:"
+msgstr ""
+
+#: ../registration/register.php:16
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: ../registration/register.php:23
+msgid "Create an Account"
+msgstr ""
+
+#: ../registration/register.php:27
+msgid ""
+"Registering for this site is easy, just fill in the fields below and we'll "
+"get a new account set up for you in no time."
+msgstr ""
+
+#: ../registration/register.php:35
+msgid "Account Details"
+msgstr ""
+
+#: ../registration/register.php:41
+msgid "Email Address"
+msgstr ""
+
+#: ../registration/register.php:45
+msgid "Choose a Password"
+msgstr ""
+
+#: ../registration/register.php:49
+msgid "Confirm Password"
+msgstr ""
+
+#: ../registration/register.php:65
+msgid "Profile Details"
+msgstr ""
+
+#: ../registration/register.php:161
+msgctxt "Change profile field visibility level"
+msgid "Change"
+msgstr ""
+
+#: ../registration/register.php:206
+msgid "Blog Details"
+msgstr ""
+
+#: ../registration/register.php:208
+msgid "Yes, I'd like to create a new site"
+msgstr ""
+
+#: ../registration/register.php:212
+msgid "Blog URL"
+msgstr ""
+
+#: ../registration/register.php:221
+msgid "Site Title"
+msgstr ""
+
+#: ../registration/register.php:225
+msgid ""
+"I would like my site to appear in search engines, and in public listings "
+"around this network."
+msgstr ""
+
+#: ../registration/register.php:228
+msgid "Yes"
+msgstr ""
+
+#: ../registration/register.php:229
+msgid "No"
+msgstr ""
+
+#: ../registration/register.php:242
+msgid "Complete Sign Up"
+msgstr ""
+
+#: ../registration/register.php:253
+msgid "Check Your Email To Activate Your Account!"
+msgstr ""
+
+#: ../registration/register.php:259
+msgid ""
+"You have successfully created your account! To begin using this site you "
+"will need to activate your account via the email we have just sent to your "
+"address."
+msgstr ""
+
+#: ../registration/register.php:261
+msgid ""
+"You have successfully created your account! Please log in using the username "
+"and password you have just created."
+msgstr ""

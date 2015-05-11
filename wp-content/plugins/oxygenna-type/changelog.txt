@@ -1,0 +1,11 @@
+1.0     -
+        - initial release
+
+1.0.1   -  (28 Sep 2013)
+        - remove notice error from updater.php
+
+1.0.2   - (2nd Oxt 2013)
+        - fix wrong folder name in plugin
+
+1.0.3   - (4th Nov 2013)
+        - fix bug searching for new plugins

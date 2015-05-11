@@ -1,0 +1,58 @@
+h3 {
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #ddd;
+}
+
+.section-description {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.form-table tr > td {
+  padding-bottom: 24px;
+}
+
+select {
+  max-width: 300px;
+}
+
+.ui-slider {
+  max-width: 600px;
+}
+
+.ui-slider {
+  margin: 4px 0;
+}
+
+.submit-footer {
+  padding-left: 230px;
+  background-color: #f6f6f6;
+  margin-top: 40px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.submit-footer .submit {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.screen-reader-text, .screen-reader-text span, .ui-helper-hidden-accessible {
+  position: fixed;
+  left: 1em;
+  top: 1em;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  display: none;
+}
+
+.iris-picker .iris-slider-offset {
+  left: 0;
+  right: 0;
+  bottom: -3px;
+  top: 0 !important;
+  width: 98% !important;
+  height: 99% !important;
+  background: transparent !important;
+}

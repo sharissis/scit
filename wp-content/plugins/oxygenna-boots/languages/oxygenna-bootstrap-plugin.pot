@@ -1,0 +1,408 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR (c) 2013 Oxygenna.com
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Oxygenna Bootstrap Plugin Translation File 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-14 10:04+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: build/inc/shortcode-options.php:19
+msgid "Blank Row"
+msgstr ""
+
+#: build/inc/shortcode-options.php:25
+msgid "Span1 (1/12th)"
+msgstr ""
+
+#: build/inc/shortcode-options.php:31
+msgid "Span2 (1/6th)"
+msgstr ""
+
+#: build/inc/shortcode-options.php:37
+msgid "Span3 (1/4)"
+msgstr ""
+
+#: build/inc/shortcode-options.php:43
+msgid "Span4 (1/3rd)"
+msgstr ""
+
+#: build/inc/shortcode-options.php:49
+msgid "Span5 (5/12th)"
+msgstr ""
+
+#: build/inc/shortcode-options.php:55
+msgid "Span6 (1/2)"
+msgstr ""
+
+#: build/inc/shortcode-options.php:61
+msgid "Span7 (7/12th)"
+msgstr ""
+
+#: build/inc/shortcode-options.php:67
+msgid "Span8 (2/3rd)"
+msgstr ""
+
+#: build/inc/shortcode-options.php:73
+msgid "Span9 (3/4)"
+msgstr ""
+
+#: build/inc/shortcode-options.php:79
+msgid "Span10 (10/12th)"
+msgstr ""
+
+#: build/inc/shortcode-options.php:85
+msgid "Span11 (11/12th)"
+msgstr ""
+
+#: build/inc/shortcode-options.php:91
+msgid "Span12 (one whole row)"
+msgstr ""
+
+#: build/inc/shortcode-options.php:97
+msgid "&frac12; - &frac12;"
+msgstr ""
+
+#: build/inc/shortcode-options.php:103
+msgid "&#8531; - &#8532;"
+msgstr ""
+
+#: build/inc/shortcode-options.php:109
+msgid "&#8532; - &#8531;"
+msgstr ""
+
+#: build/inc/shortcode-options.php:115
+msgid "&frac14; - &frac34;"
+msgstr ""
+
+#: build/inc/shortcode-options.php:121
+msgid "&frac34; - &frac14;"
+msgstr ""
+
+#: build/inc/shortcode-options.php:127 build/inc/shortcode-options.php:133
+msgid "&#8531; - &#8531; - &#8531;"
+msgstr ""
+
+#: build/inc/shortcode-options.php:138
+msgid "Button"
+msgstr ""
+
+#: build/inc/shortcode-options.php:145
+msgid "Button type"
+msgstr ""
+
+#: build/inc/shortcode-options.php:146 build/inc/shortcode-options.php:231
+#: build/inc/shortcode-options.php:323 build/inc/shortcode-options.php:499
+msgid "Type of button to display"
+msgstr ""
+
+#: build/inc/shortcode-options.php:151 build/inc/shortcode-options.php:168
+#: build/inc/shortcode-options.php:271
+msgid "Default"
+msgstr ""
+
+#: build/inc/shortcode-options.php:152
+msgid "Primary"
+msgstr ""
+
+#: build/inc/shortcode-options.php:153 build/inc/shortcode-options.php:442
+msgid "Info"
+msgstr ""
+
+#: build/inc/shortcode-options.php:154 build/inc/shortcode-options.php:443
+msgid "Success"
+msgstr ""
+
+#: build/inc/shortcode-options.php:155 build/inc/shortcode-options.php:444
+msgid "Warning"
+msgstr ""
+
+#: build/inc/shortcode-options.php:156 build/inc/shortcode-options.php:445
+msgid "Danger"
+msgstr ""
+
+#: build/inc/shortcode-options.php:157
+msgid "Inverse"
+msgstr ""
+
+#: build/inc/shortcode-options.php:158 build/inc/shortcode-options.php:182
+#: build/inc/shortcode-options.php:285
+msgid "Link"
+msgstr ""
+
+#: build/inc/shortcode-options.php:162 build/inc/shortcode-options.php:265
+msgid "Button size"
+msgstr ""
+
+#: build/inc/shortcode-options.php:163 build/inc/shortcode-options.php:266
+msgid "Size of button to display"
+msgstr ""
+
+#: build/inc/shortcode-options.php:169 build/inc/shortcode-options.php:272
+msgid "Large"
+msgstr ""
+
+#: build/inc/shortcode-options.php:170 build/inc/shortcode-options.php:273
+msgid "Small"
+msgstr ""
+
+#: build/inc/shortcode-options.php:171 build/inc/shortcode-options.php:274
+msgid "Mini"
+msgstr ""
+
+#: build/inc/shortcode-options.php:175 build/inc/shortcode-options.php:278
+msgid "Text"
+msgstr ""
+
+#: build/inc/shortcode-options.php:178 build/inc/shortcode-options.php:281
+msgid "My button"
+msgstr ""
+
+#: build/inc/shortcode-options.php:179 build/inc/shortcode-options.php:282
+msgid "Add a label to the button"
+msgstr ""
+
+#: build/inc/shortcode-options.php:186 build/inc/shortcode-options.php:289
+msgid "Where the button links to"
+msgstr ""
+
+#: build/inc/shortcode-options.php:189
+msgid "Icon Position"
+msgstr ""
+
+#: build/inc/shortcode-options.php:190
+msgid "The position of the icon on the button"
+msgstr ""
+
+#: build/inc/shortcode-options.php:195
+msgid "Left"
+msgstr ""
+
+#: build/inc/shortcode-options.php:196
+msgid "Right"
+msgstr ""
+
+#: build/inc/shortcode-options.php:205 build/inc/shortcode-options.php:297
+msgid "Extra classes"
+msgstr ""
+
+#: build/inc/shortcode-options.php:209 build/inc/shortcode-options.php:301
+msgid "Add an extra class to the button"
+msgstr ""
+
+#: build/inc/shortcode-options.php:212 build/inc/shortcode-options.php:304
+msgid "Open Link In"
+msgstr ""
+
+#: build/inc/shortcode-options.php:217 build/inc/shortcode-options.php:309
+msgid "Same page as it was clicked "
+msgstr ""
+
+#: build/inc/shortcode-options.php:218 build/inc/shortcode-options.php:310
+msgid "Open in new window/tab"
+msgstr ""
+
+#: build/inc/shortcode-options.php:219 build/inc/shortcode-options.php:311
+msgid "Open the linked document in the parent frameset"
+msgstr ""
+
+#: build/inc/shortcode-options.php:220 build/inc/shortcode-options.php:312
+msgid "Open the linked document in the full body of the window"
+msgstr ""
+
+#: build/inc/shortcode-options.php:222 build/inc/shortcode-options.php:314
+msgid "Where the button link opens to"
+msgstr ""
+
+#: build/inc/shortcode-options.php:230 build/inc/shortcode-options.php:322
+#: build/inc/shortcode-options.php:474 build/inc/shortcode-options.php:498
+msgid "Icon"
+msgstr ""
+
+#: build/inc/shortcode-options.php:242
+msgid "Fancy Button"
+msgstr ""
+
+#: build/inc/shortcode-options.php:249
+msgid "Button Swatch"
+msgstr ""
+
+#: build/inc/shortcode-options.php:250
+msgid "Choose a color swatch for the button"
+msgstr ""
+
+#: build/inc/shortcode-options.php:257
+msgid "Button Animation"
+msgstr ""
+
+#: build/inc/shortcode-options.php:258
+msgid "Choose a button animation"
+msgstr ""
+
+#: build/inc/shortcode-options.php:334
+msgid "Bootstrap alert"
+msgstr ""
+
+#: build/inc/shortcode-options.php:341
+msgid "Alert type"
+msgstr ""
+
+#: build/inc/shortcode-options.php:342
+msgid "Type of alert to display"
+msgstr ""
+
+#: build/inc/shortcode-options.php:347
+msgid "default"
+msgstr ""
+
+#: build/inc/shortcode-options.php:348
+msgid "block"
+msgstr ""
+
+#: build/inc/shortcode-options.php:349
+msgid "danger"
+msgstr ""
+
+#: build/inc/shortcode-options.php:350
+msgid "success"
+msgstr ""
+
+#: build/inc/shortcode-options.php:351
+msgid "information"
+msgstr ""
+
+#: build/inc/shortcode-options.php:355
+msgid "Label"
+msgstr ""
+
+#: build/inc/shortcode-options.php:358
+msgid "warning!"
+msgstr ""
+
+#: build/inc/shortcode-options.php:359
+msgid "The alert label"
+msgstr ""
+
+#: build/inc/shortcode-options.php:362
+msgid "Description"
+msgstr ""
+
+#: build/inc/shortcode-options.php:365
+msgid "something is wrong!"
+msgstr ""
+
+#: build/inc/shortcode-options.php:366
+msgid "Add a description to your warning"
+msgstr ""
+
+#: build/inc/shortcode-options.php:375
+msgid "Accordion"
+msgstr ""
+
+#: build/inc/shortcode-options.php:382
+msgid "Accordions"
+msgstr ""
+
+#: build/inc/shortcode-options.php:383
+msgid "Number of accordions"
+msgstr ""
+
+#: build/inc/shortcode-options.php:400
+msgid "Tabs"
+msgstr ""
+
+#: build/inc/shortcode-options.php:405
+msgid "Progress Bar"
+msgstr ""
+
+#: build/inc/shortcode-options.php:412
+msgid "Percentage"
+msgstr ""
+
+#: build/inc/shortcode-options.php:413
+msgid "Percentage of the progress bar"
+msgstr ""
+
+#: build/inc/shortcode-options.php:424
+msgid "Bar Type"
+msgstr ""
+
+#: build/inc/shortcode-options.php:425
+msgid "Type of bar to display"
+msgstr ""
+
+#: build/inc/shortcode-options.php:430
+msgid "Normal"
+msgstr ""
+
+#: build/inc/shortcode-options.php:431
+msgid "Striped"
+msgstr ""
+
+#: build/inc/shortcode-options.php:432
+msgid "Animated"
+msgstr ""
+
+#: build/inc/shortcode-options.php:436
+msgid "Bar Style"
+msgstr ""
+
+#: build/inc/shortcode-options.php:437
+msgid "Style of bar to display"
+msgstr ""
+
+#: build/inc/shortcode-options.php:456
+msgid "Lead Paragraph"
+msgstr ""
+
+#: build/inc/shortcode-options.php:462
+msgid "Blockquote"
+msgstr ""
+
+#: build/inc/shortcode-options.php:468
+msgid "Iconlist"
+msgstr ""
+
+#: build/inc/shortcode-options.php:481
+msgid "Font Size"
+msgstr ""
+
+#: build/inc/shortcode-options.php:482
+msgid ""
+"Size of font to use for icon ( set to 0 to inhertit font size from "
+"container )"
+msgstr ""
+
+#: build/inc/shortcode-options.php:515
+#, php-format
+msgid "Accordion %s title"
+msgstr ""
+
+#: build/inc/shortcode-options.php:516
+#, php-format
+msgid "accordion_%s_title"
+msgstr ""
+
+#: build/inc/shortcode-options.php:519 build/inc/shortcode-options.php:526
+msgid "Add text to the accordion"
+msgstr ""
+
+#: build/inc/shortcode-options.php:522
+#, php-format
+msgid "Accordion %s content"
+msgstr ""
+
+#: build/inc/shortcode-options.php:523
+#, php-format
+msgid "accordion_%s_content"
+msgstr ""
