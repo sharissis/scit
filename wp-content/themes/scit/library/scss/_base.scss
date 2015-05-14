@@ -20,10 +20,10 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	color: #565656;
-	//background: url('/assets/global/img/bg-pattern/husk.png') fixed;
+	// color: $white;
+	// background: url('/assets/global/img/bg-pattern/husk.png') fixed;
+	// background: $black;
 	background: $navy;
-	//background: $black;
-	color: $white;
 }
 
 b, strong {
@@ -230,6 +230,7 @@ HEADER STYLES
 
 .header {
 	//padding-top: 1em;
+	color: $white;
 }
 	
 	#logo {
@@ -959,6 +960,11 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
+
+	.source-org {
+		color: $white;
+	}
+
 }
 
 	/*
