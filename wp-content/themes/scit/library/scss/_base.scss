@@ -310,6 +310,12 @@ and more scalable.
 		ul.sub-menu,
 		ul.children {
 
+			display: none; // Hide nested lists unless expanded
+
+			&.open {
+				display: block;
+			}
+
 			li {
 
 				a {
@@ -1172,4 +1178,15 @@ a.button, button.button, input.button, #respond input#submit, #content input.but
 
 #tribe-events-loop {
 	font-size: 1em;
+}
+
+// Additional Styles -sharissis
+
+.type-product {
+	background: $white;
+	padding: 1em;
+}
+
+.header-thumb img {
+	width: auto;
 }

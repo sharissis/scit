@@ -64,13 +64,15 @@ jQuery(document).ready(function($) {
     if (responsive_viewport > 1030) {
         
     }
-    
-
-
 
     // add all your scripts here
 
+    // Mobile nav submenu open/close -sharissis
+    // Uncomment out jQuery below to enable
 
+    // $('.nav > li').on('click', function() {
+    //     $(this).find('> ul').toggleClass('open');
+    // });
 
  
 }); /* end of as page load scripts */
